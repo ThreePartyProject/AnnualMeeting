@@ -9,12 +9,50 @@
     <link rel="stylesheet" type="text/css" href="css/wall.css">
     <link href="fonts/ysbth.ttf" rel="stylesheet">
     <style type="text/css">
-        body, html {
-            width: 100%;
-            height: 100%;
-        }
         .tip {
           color: #fff;
+        }
+        .tools-item {
+          width: 934px;
+          height: 1181px;
+          position: absolute;
+          top: 250px;
+        }
+        .tools-item.left {
+          left: 240px;
+        }
+        .tools-item.right {
+          right: 240px;
+        }
+        .tools-item img {
+          width: 100%;
+        }
+        .tools-item .tip {
+          font-family: PingFangSC, PingFang SC;
+          font-weight: 600;
+          font-size: 86px;
+          color: #FFFFFF;
+          line-height: 121px;
+          text-shadow: 0px 4px 2px #FFAE25;
+          text-align: center;
+          font-style: normal;
+        }
+        .control {
+          width: 3194px;
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          position: absolute;
+          bottom: 197px;
+          left: 50%;
+          margin-left: -1597px;
+        }
+        .control .start, .control .end {
+          width: 704px;
+          cursor: pointer;
+        }
+        .control .start.no, .control .end.no {
+          cursor: not-allowed;
         }
         #goBtn {
           color: blue;
@@ -135,7 +173,7 @@
         .button-secondary {
             background: rgb(66, 184, 221);
         }
-        .tools {
+        /* .tools {
             position: absolute;
             bottom: 20px;
             right: 20px;
@@ -147,7 +185,7 @@
             padding: 10px 0;
             text-align: center;
             width:50px;
-        }
+        } */
         .mask {
             -webkit-filter:blur(20px);
             filter:blur(20px);
@@ -184,41 +222,86 @@
     </style>
 </head>
 <body>
-<div id="main" class="wall">
-    <!-- <div class="result-btn">
-       <p id="goBtn">获奖名单</p>
-    </div> -->
-</div>
-<!-- logo -->
-<!-- <div class="logo">LOGO</div> -->
-<!-- 结果展示 -->
-<div id="result" class="result">
-  <div class="result-tit"></div>
-  <div id="result-box"></div>
-</div>
-<div id="tools" class="tools">
-  <p class="tip" v-if="selectLevel == 0">当前抽奖类型：特等奖</p>
-  <p class="tip" v-if="selectLevel == 1">当前抽奖类型：一等奖</p>
-  <p class="tip" v-if="selectLevel == 2">当前抽奖类型：二等奖</p>
-  <p class="tip" v-if="selectLevel == 3">当前抽奖类型：三等奖</p>
-  <p class="tip" v-if="selectLevel == 4">当前抽奖类型：四等奖</p>
-  <p class="tip" v-if="selectLevel == 5">当前抽奖类型：五等奖</p>
-  <p class="tip" v-if="selectLevel == 6">当前抽奖类型：终极大奖</p>
-  <!-- 按钮注释 -->
-  <!-- <button
-    v-for="value in btns"
-    @click="onClick(value)"
-    class="pure-button"
-    :class="{ 'button-error': selectLevel == value.type}"
-    >{{value.name}}
-  </button>
-  <button
-    class="pure-button"
-    @click="toggle"
-    :class="{'button-secondary': !running,
-            'button-success': running}">{{running?'停!':'开始'}}
-  </button>
-  <button class="pure-button button-warning" @click="reset">重置</button> -->
+<div class="box">
+  <div id="main" class="wall">
+      <!-- <div class="result-btn">
+         <p id="goBtn">获奖名单</p>
+      </div> -->
+  </div>
+  <!-- logo -->
+  <!-- <div class="logo">LOGO</div> -->
+  <!-- 结果展示 -->
+  <div id="result" class="result">
+    <div class="result-tit"></div>
+    <div id="result-box"></div>
+  </div>
+  <div id="tools" class="tools">
+    <div class="tools-item left">
+      <img src="img/2025/left.png" alt="">
+      <p class="tip" v-if="selectLevel == 0">特等奖</p>
+      <p class="tip" v-if="selectLevel == 1">一等奖</p>
+      <p class="tip" v-if="selectLevel == 2">二等奖</p>
+      <p class="tip" v-if="selectLevel == 3">三等奖</p>
+      <p class="tip" v-if="selectLevel == 4">四等奖(耳机)</p>
+      <p class="tip" v-if="selectLevel == 5">五等奖</p>
+      <p class="tip" v-if="selectLevel == 6">四等奖(吸尘器)</p>
+    </div>
+    <div class="tools-item right">
+      <img src="img/2025/left.png" alt="">
+      <p class="tip" v-if="selectLevel == 0">特等奖</p>
+      <p class="tip" v-if="selectLevel == 1">一等奖</p>
+      <p class="tip" v-if="selectLevel == 2">二等奖</p>
+      <p class="tip" v-if="selectLevel == 3">三等奖</p>
+      <p class="tip" v-if="selectLevel == 4">四等奖(耳机)</p>
+      <p class="tip" v-if="selectLevel == 5">五等奖</p>
+      <p class="tip" v-if="selectLevel == 6">四等奖(吸尘器)</p>
+    </div>
+    <div class="control">
+      <img 
+        v-if="!running"
+        src="img/2025/start.png"
+        class="start"
+        @click="toggle">
+      <img 
+        v-else
+        src="img/2025/start-no.png"
+        class="start no">
+      <img 
+        v-if="running"
+        src="img/2025/end.png"
+        class="end"
+        @click="toggle">
+      <img 
+        v-else
+        src="img/2025/end-no.png"
+        class="end no">
+    </div>
+  </div>
+  <!-- 控制区 -->
+  <div id="tools1" class="tools1">
+    <!-- <p class="tip" v-if="selectLevel == 0">当前抽奖类型：特等奖</p>
+    <p class="tip" v-if="selectLevel == 1">当前抽奖类型：一等奖</p>
+    <p class="tip" v-if="selectLevel == 2">当前抽奖类型：二等奖</p>
+    <p class="tip" v-if="selectLevel == 3">当前抽奖类型：三等奖</p>
+    <p class="tip" v-if="selectLevel == 4">当前抽奖类型：四等奖</p>
+    <p class="tip" v-if="selectLevel == 5">当前抽奖类型：五等奖</p>
+    <p class="tip" v-if="selectLevel == 6">当前抽奖类型：终极大奖</p> -->
+    <!-- 按钮注释 -->
+    <!-- <button
+      v-for="value in btns"
+      @click="onClick(value)"
+      class="pure-button"
+      :class="{ 'button-error': selectLevel == value.type}"
+      >{{value.name}}
+    </button>
+    <button
+      class="pure-button"
+      @click="toggle"
+      :class="{'button-secondary': !running,
+              'button-success': running}">{{running?'停!':'开始'}}
+    </button>
+    <button class="pure-button button-warning" @click="reset">重置</button> -->
+  </div>
 </div>
 <script type="text/javascript" src="js/zepto.js"></script>
 <script type="text/javascript" src="js/vue.js"></script>
@@ -236,6 +319,7 @@
               var selectLevel = 5
               var titName = '五等奖'
               var member = memberAll; // .concat((blessing))
+              console.log('总人数', member);
               var choosed = JSON.parse(localStorage.getItem('choosed')) || {};
               var choosedZjdj = JSON.parse(localStorage.getItem('choosedZjdj')) || {};
               console.log('已经获奖的人数1', choosed, choosedZjdj);
@@ -340,8 +424,9 @@
               };
               var canvas = document.createElement('canvas');
               canvas.id = 'myCanvas';
-              canvas.width = document.body.offsetWidth;
-              canvas.height = document.body.offsetHeight - 300;
+              canvas.width = document.getElementById('main').offsetWidth;
+              canvas.height = document.getElementById('main').offsetHeight
+               - 300;
               document.getElementById('main').appendChild(canvas);
               new Vue({
                   el: '#tools',
@@ -371,16 +456,16 @@
                         name: '三等奖'
                       },{
                         type: 4,
-                        num: 8,
-                        name: '四等奖'
+                        num: 5,
+                        name: '四等奖(耳机)'
                       },{
                         type: 5,
                         num: 10,
                         name: '五等奖'
                       },{
                         type: 6,
-                        num: 1,
-                        name: '终极大奖'
+                        num: 5,
+                        name: '四等奖(吸尘器)'
                       }]
                   },
                   watch: {
@@ -537,28 +622,28 @@
                                   titName ='三等奖'
                                 break;
                                 case 4:
-                                  titName ='四等奖'
+                                  titName ='四等奖(耳机)'
                                 break;
                                 case 5:
                                   titName ='五等奖'
                                 break;
                                 case 6:
-                                  titName ='终极大奖'
+                                  titName ='四等奖(吸尘器)'
                                 break;
                               }
-                              if (selectLevel === 6) {
-                                // 终极大奖，隐藏标题
-                                $('#result .result-tit').css("display", 'none')
-                              } else {
+                              // if (selectLevel === 6) {
+                              //   // 终极大奖，隐藏标题
+                              //   // $('#result .result-tit').css("display", 'none')7
+                              // } else {
                                 $('#result .result-tit').css("display", 'block')
                                 $('#result .result-tit').html(titName)
-                              }
+                              // }
                               if (selectLevel === 0 || selectLevel === 1) {
                                 // 特等奖和一等奖 名字大一点
                                 $('#result #result-box').html('<span class="f50">' + ret.join('</span><span>') + '</span>');
                               } else if (selectLevel === 6) {
                                 // 终极大奖
-                                $('#result #result-box').html('<span class="f70">' + ret.join('</span><span>') + '</span>');
+                                $('#result #result-box').html('<span>' + ret.join('</span><span>') + '</span>');
                               } else if (selectLevel === 2 || selectLevel === 3) {
                                 // 二等奖或者三等奖
                                 $('#result #result-box').html('<span class="w2or3">' + ret.join('</span><span>') + '</span>');
