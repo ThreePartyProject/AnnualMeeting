@@ -244,7 +244,8 @@
       <p class="tip" v-if="selectLevel == 3">三等奖</p>
       <p class="tip" v-if="selectLevel == 4">四等奖(耳机)</p>
       <p class="tip" v-if="selectLevel == 5">五等奖</p>
-      <p class="tip" v-if="selectLevel == 6">四等奖(吸尘器)</p>
+      <p class="tip" v-if="selectLevel == 6">终极大奖</p>
+      <p class="tip" v-if="selectLevel == 7">四等奖(吸尘器)</p>
     </div>
     <div class="tools-item right">
       <img src="img/2025/left.png" alt="">
@@ -254,7 +255,9 @@
       <p class="tip" v-if="selectLevel == 3">三等奖</p>
       <p class="tip" v-if="selectLevel == 4">四等奖(耳机)</p>
       <p class="tip" v-if="selectLevel == 5">五等奖</p>
-      <p class="tip" v-if="selectLevel == 6">四等奖(吸尘器)</p>
+      <p class="tip" v-if="selectLevel == 6">终极大奖</p>
+      <p class="tip" v-if="selectLevel == 7">四等奖(吸尘器)</p>
+      <!-- 四等奖(吸尘器) -->
     </div>
     <div class="control">
       <img 
@@ -459,13 +462,17 @@
                         num: 5,
                         name: '四等奖(耳机)'
                       },{
+                        type: 7,
+                        num: 5,
+                        name: '四等奖(吸尘器)'
+                      },{
                         type: 5,
                         num: 10,
                         name: '五等奖'
                       },{
                         type: 6,
-                        num: 5,
-                        name: '四等奖(吸尘器)'
+                        num: 1,
+                        name: '终极大奖'
                       }]
                   },
                   watch: {
@@ -512,8 +519,12 @@
                           let item = this.btns.filter(item => item.type === 3)[0]
                           _this.onClick(item)
                         } else if(e.keyCode === 52) {
-                          console.log('四等奖')
+                          console.log('四等奖(耳机)')
                           let item = this.btns.filter(item => item.type === 4)[0]
+                          _this.onClick(item)
+                        } else if(e.keyCode === 53) {
+                          console.log('四等奖(吸尘器)')
+                          let item = this.btns.filter(item => item.type === 7)[0]
                           _this.onClick(item)
                         } else if(e.keyCode === 54) {
                           console.log('五等奖')
@@ -530,6 +541,7 @@
                         }
                         // 控制抽奖的类型 -- 点击 tab 键
                         if (e.keyCode === 9) {
+                          console.log('tab键', _this.selectLevel)
                           switch (_this.selectLevel) {
                             case 0:
                               _this.selectLevel = 6
@@ -548,8 +560,8 @@
                               selectLevel = 2
                               break;
                             case 4:
-                              _this.selectLevel = 3
-                              selectLevel = 3
+                              _this.selectLevel = 7
+                              selectLevel = 7
                               break;
                             case 5:
                               _this.selectLevel = 4
@@ -558,6 +570,10 @@
                             case 6:
                               _this.selectLevel = 5
                               selectLevel = 5
+                              break;
+                            case 7:
+                              _this.selectLevel = 3
+                              selectLevel = 3
                               break;
                             default:
                           }
@@ -628,22 +644,25 @@
                                   titName ='五等奖'
                                 break;
                                 case 6:
+                                  titName ='终极大奖'
+                                break;
+                                case 7:
                                   titName ='四等奖(吸尘器)'
                                 break;
                               }
-                              // if (selectLevel === 6) {
-                              //   // 终极大奖，隐藏标题
-                              //   // $('#result .result-tit').css("display", 'none')7
-                              // } else {
+                              if (selectLevel === 6) {
+                                // 终极大奖，隐藏标题
+                                $('#result .result-tit').css("display", 'none')
+                              } else {
                                 $('#result .result-tit').css("display", 'block')
                                 $('#result .result-tit').html(titName)
-                              // }
+                              }
                               if (selectLevel === 0 || selectLevel === 1) {
                                 // 特等奖和一等奖 名字大一点
                                 $('#result #result-box').html('<span class="f50">' + ret.join('</span><span>') + '</span>');
                               } else if (selectLevel === 6) {
                                 // 终极大奖
-                                $('#result #result-box').html('<span>' + ret.join('</span><span>') + '</span>');
+                                $('#result #result-box').html('<span class="f70">' + ret.join('</span><span>') + '</span>');
                               } else if (selectLevel === 2 || selectLevel === 3) {
                                 // 二等奖或者三等奖
                                 $('#result #result-box').html('<span class="w2or3">' + ret.join('</span><span>') + '</span>');
