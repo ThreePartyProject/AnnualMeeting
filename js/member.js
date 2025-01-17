@@ -924,7 +924,933 @@ var memberAll = [
   "phone": "No.185",
   "name": "黄盼盼",
   "department": " 艺人"
-  }
+  },
+  // --------
+  {
+    "phone": "No.1-1",
+    "name": "马兰",
+    "department": " 影视1工作室"
+    },
+    {
+    "phone": "No.2-1",
+    "name": "刘琳",
+    "department": "影视1工作室"
+    },
+    {
+    "phone": "No.3-1",
+    "name": "曾贇",
+    "department": "影视2工作室"
+    },
+    {
+    "phone": "No.4-1",
+    "name": "王高阳",
+    "department": "影视2工作室"
+    },
+    {
+    "phone": "No.5-1",
+    "name": "王禹涵",
+    "department": "影视2工作室"
+    },
+    {
+    "phone": "No.6-1",
+    "name": "蒋伯骏",
+    "department": "影视2工作室"
+    },
+    {
+    "phone": "No.7-1",
+    "name": "刘妍",
+    "department": "影视2工作室"
+    },
+    {
+    "phone": "No.8-1",
+    "name": "钱路",
+    "department": "影视2工作室"
+    },
+    {
+    "phone": "No.9-1",
+    "name": "高洋",
+    "department": "影视2工作室"
+    },
+    {
+    "phone": "No.10-1",
+    "name": "王彤",
+    "department": "影视3工作室"
+    },
+    {
+    "phone": "No.11-1",
+    "name": "蘧彤彤",
+    "department": "影视3工作室"
+    },
+    {
+    "phone": "No.12-1",
+    "name": "赵孟凡",
+    "department": "影视3工作室"
+    },
+    {
+    "phone": "No.13-1",
+    "name": "陈文龙",
+    "department": "影视3工作室"
+    },
+    {
+    "phone": "No.14-1",
+    "name": "雷丙鑫",
+    "department": "影视3工作室"
+    },
+    {
+    "phone": "No.15-1",
+    "name": "芦悦",
+    "department": "影视3工作室"
+    },
+    {
+    "phone": "No.16-1",
+    "name": "薛理敏",
+    "department": "文学策划部"
+    },
+    {
+    "phone": "No.17-1",
+    "name": "王晓萌",
+    "department": "文学策划部"
+    },
+    {
+    "phone": "No.18-1",
+    "name": "史月",
+    "department": "文学策划部"
+    },
+    {
+    "phone": "No.19-1",
+    "name": "王思涵",
+    "department": "文学策划部"
+    },
+    {
+    "phone": "No.20-1",
+    "name": "李美玥",
+    "department": "文学策划部"
+    },
+    {
+    "phone": "No.21-1",
+    "name": "叶言真",
+    "department": "文学策划部"
+    },
+    {
+    "phone": "No.22-1",
+    "name": "蓝雅娜",
+    "department": "影视制作中心"
+    },
+    {
+    "phone": "No.23-1",
+    "name": "胡楠",
+    "department": "音乐产品中心"
+    },
+    {
+    "phone": "No.24-1",
+    "name": "李依纳",
+    "department": "演出运营部"
+    },
+    {
+    "phone": "No.25-1",
+    "name": "贾茹",
+    "department": "头部工作室"
+    },
+    {
+    "phone": "No.26-1",
+    "name": "倪毅",
+    "department": "Waa Music"
+    },
+    {
+    "phone": "No.27-1",
+    "name": "于紫东",
+    "department": "Waa Music"
+    },
+    {
+    "phone": "No.28-1",
+    "name": "吕聪",
+    "department": "Waa Music"
+    },
+    {
+    "phone": "No.29-1",
+    "name": "冯时",
+    "department": "Gee Music"
+    },
+    {
+    "phone": "No.30-1",
+    "name": "金彦君",
+    "department": "Gee Music"
+    },
+    {
+    "phone": "No.31-1",
+    "name": "王希",
+    "department": "Gee Music"
+    },
+    {
+    "phone": "No.32-1",
+    "name": "刘彤",
+    "department": "版权运营部"
+    },
+    {
+    "phone": "No.33-1",
+    "name": "郭冠男",
+    "department": "版权运营部"
+    },
+    {
+    "phone": "No.34-1",
+    "name": "崔梓琰",
+    "department": "版权运营部"
+    },
+    {
+    "phone": "No.35-1",
+    "name": "鞠鸿鹏",
+    "department": "会员产品部"
+    },
+    {
+    "phone": "No.36-1",
+    "name": "高绮蔚",
+    "department": "会员产品部"
+    },
+    {
+    "phone": "No.37-1",
+    "name": "蒋文夏",
+    "department": "会员产品部"
+    },
+    {
+    "phone": "No.38-1",
+    "name": "高雨欣",
+    "department": "会员产品部"
+    },
+    {
+    "phone": "No.39-1",
+    "name": "桑蕊",
+    "department": "会员产品部"
+    },
+    {
+    "phone": "No.40-1",
+    "name": "陈静怡",
+    "department": "品牌公关部"
+    },
+    {
+    "phone": "No.41-1",
+    "name": "赵昱琳",
+    "department": "品牌公关部"
+    },
+    {
+    "phone": "No.42-1",
+    "name": "李雨薇",
+    "department": "品牌公关部"
+    },
+    {
+    "phone": "No.43-1",
+    "name": "樊昭锦",
+    "department": "品牌公关部"
+    },
+    {
+    "phone": "No.44-1",
+    "name": "龙承菲",
+    "department": "品牌公关部"
+    },
+    {
+    "phone": "No.45-1",
+    "name": "杨晓榆",
+    "department": "品牌公关部"
+    },
+    {
+    "phone": "No.46-1",
+    "name": "赵硕",
+    "department": "音乐经纪中心"
+    },
+    {
+    "phone": "No.47-1",
+    "name": "王云琦",
+    "department": "音乐经纪中心"
+    },
+    {
+    "phone": "No.48-1",
+    "name": "单孟情",
+    "department": "音乐经纪中心"
+    },
+    {
+    "phone": "No.49-1",
+    "name": "杜禹潼",
+    "department": "艺人经纪二部"
+    },
+    {
+    "phone": "No.50-1",
+    "name": "郁立翱",
+    "department": "艺人经纪二部"
+    },
+    {
+    "phone": "No.51-1",
+    "name": "聂子涵",
+    "department": "艺人经纪二部"
+    },
+    {
+    "phone": "No.52-1",
+    "name": "修美乔",
+    "department": "艺人经纪二部"
+    },
+    {
+    "phone": "No.53-1",
+    "name": "赵莎莉",
+    "department": "艺人经纪四部"
+    },
+    {
+    "phone": "No.54-1",
+    "name": "邹奇格",
+    "department": "艺人经纪四部"
+    },
+    {
+    "phone": "No.55-1",
+    "name": "孙晓羽",
+    "department": "艺人经纪四部"
+    },
+    {
+    "phone": "No.56-1",
+    "name": "李筱竹",
+    "department": "艺人经纪四部"
+    },
+    {
+    "phone": "No.57-1",
+    "name": "刘子钰",
+    "department": "艺人经纪四部"
+    },
+    {
+    "phone": "No.58-1",
+    "name": "张盼盼",
+    "department": "艺人经纪四部"
+    },
+    {
+    "phone": "No.59-1",
+    "name": "刘晨",
+    "department": "艺人经纪四部"
+    },
+    {
+    "phone": "No.60-1",
+    "name": "王春婷",
+    "department": "艺人经纪四部"
+    },
+    {
+    "phone": "No.61-1",
+    "name": "王文瑄",
+    "department": "艺人经纪四部"
+    },
+    {
+    "phone": "No.62-1",
+    "name": "史玉蓉",
+    "department": "艺人经纪四部"
+    },
+    {
+    "phone": "No.63-1",
+    "name": "杨晓莹",
+    "department": "艺人经纪五部"
+    },
+    {
+    "phone": "No.64-1",
+    "name": "杨彩",
+    "department": "艺人经纪五部"
+    },
+    {
+    "phone": "No.65-1",
+    "name": "张畅",
+    "department": "艺人经纪五部"
+    },
+    {
+    "phone": "No.66-1",
+    "name": "陈洁",
+    "department": "艺人经纪五部"
+    },
+    {
+    "phone": "No.67-1",
+    "name": "林慧洁",
+    "department": "艺人经纪五部"
+    },
+    {
+    "phone": "No.68-1",
+    "name": "刘洺恺",
+    "department": "艺人经纪五部"
+    },
+    {
+    "phone": "No.69-1",
+    "name": "焦童童",
+    "department": "艺人经纪五部"
+    },
+    {
+    "phone": "No.70-1",
+    "name": "孙卫月",
+    "department": "艺人经纪五部"
+    },
+    {
+    "phone": "No.71-1",
+    "name": "陆东玥",
+    "department": "商务开发部"
+    },
+    {
+    "phone": "No.72-1",
+    "name": "龚澄",
+    "department": "商务开发部"
+    },
+    {
+    "phone": "No.73-1",
+    "name": "田慧",
+    "department": "影视经纪中心"
+    },
+    {
+    "phone": "No.74-1",
+    "name": "陈星",
+    "department": "艺人经纪六部"
+    },
+    {
+    "phone": "No.75-1",
+    "name": "高明君",
+    "department": "艺人经纪六部"
+    },
+    {
+    "phone": "No.76-1",
+    "name": "王萌",
+    "department": "艺人经纪六部"
+    },
+    {
+    "phone": "No.77-1",
+    "name": "蒋沁雪",
+    "department": "艺人经纪六部"
+    },
+    {
+    "phone": "No.78-1",
+    "name": "杨明",
+    "department": "艺人经纪六部"
+    },
+    {
+    "phone": "No.79-1",
+    "name": "王殊瑾",
+    "department": "艺人经纪八部"
+    },
+    {
+    "phone": "No.80-1",
+    "name": "张贺双",
+    "department": "艺人经纪八部"
+    },
+    {
+    "phone": "No.81-1",
+    "name": "王瑾",
+    "department": "艺人经纪八部"
+    },
+    {
+    "phone": "No.82-1",
+    "name": "刚义",
+    "department": "艺人经纪八部"
+    },
+    {
+    "phone": "No.83-1",
+    "name": "王芳",
+    "department": "艺人经纪八部"
+    },
+    {
+    "phone": "No.84-1",
+    "name": "刘禹芪",
+    "department": "艺人经纪八部"
+    },
+    {
+    "phone": "No.85-1",
+    "name": "戴翎",
+    "department": "艺人经纪九部"
+    },
+    {
+    "phone": "No.86-1",
+    "name": "张媛媛",
+    "department": "艺人经纪九部"
+    },
+    {
+    "phone": "No.87-1",
+    "name": "张鹿原",
+    "department": "艺人经纪九部"
+    },
+    {
+    "phone": "No.88-1",
+    "name": "张稀然",
+    "department": "艺人经纪九部"
+    },
+    {
+    "phone": "No.89-1",
+    "name": "刘方",
+    "department": "树苗经纪部"
+    },
+    {
+    "phone": "No.90-1",
+    "name": "张晨曦",
+    "department": "树苗经纪部"
+    },
+    {
+    "phone": "No.91-1",
+    "name": "谌特亮",
+    "department": "新人开发中心"
+    },
+    {
+    "phone": "No.92-1",
+    "name": "磨巧玲",
+    "department": "选角部"
+    },
+    {
+    "phone": "No.93-1",
+    "name": "张恒志",
+    "department": "选角部"
+    },
+    {
+    "phone": "No.94-1",
+    "name": "孙溥萱",
+    "department": "选角部"
+    },
+    {
+    "phone": "No.95-1",
+    "name": "郑达",
+    "department": "选角部"
+    },
+    {
+    "phone": "No.96-1",
+    "name": "姜楠",
+    "department": "管培部"
+    },
+    {
+    "phone": "No.97-1",
+    "name": "向芷筠",
+    "department": "管培部"
+    },
+    {
+    "phone": "No.98-1",
+    "name": "倪可欣",
+    "department": "运营部（新人）"
+    },
+    {
+    "phone": "No.99-1",
+    "name": "陈雯",
+    "department": "运营部（新人）"
+    },
+    {
+    "phone": "No.100-1",
+    "name": "鹿文萃",
+    "department": "战略发展部"
+    },
+    {
+    "phone": "No.101-1",
+    "name": "呼琰",
+    "department": "财务部"
+    },
+    {
+    "phone": "No.102-1",
+    "name": "韩冰",
+    "department": "财务部"
+    },
+    {
+    "phone": "No.103-1",
+    "name": "王征",
+    "department": "财务部"
+    },
+    {
+    "phone": "No.104-1",
+    "name": "王筱曼",
+    "department": "财务部"
+    },
+    {
+    "phone": "No.105-1",
+    "name": "张雪岩",
+    "department": "财务部"
+    },
+    {
+    "phone": "No.106-1",
+    "name": "邢蕾",
+    "department": "财务部"
+    },
+    {
+    "phone": "No.107-1",
+    "name": "唐晓婉",
+    "department": "财务部"
+    },
+    {
+    "phone": "No.108-1",
+    "name": "鞠琳",
+    "department": "财务部"
+    },
+    {
+    "phone": "No.109-1",
+    "name": "戴佳芮",
+    "department": "财务部"
+    },
+    {
+    "phone": "No.110-1",
+    "name": "严若宇",
+    "department": "财务部"
+    },
+    {
+    "phone": "No.111-1",
+    "name": "皮新妹",
+    "department": "财务部"
+    },
+    {
+    "phone": "No.112-1",
+    "name": "王柯彬",
+    "department": "财务部"
+    },
+    {
+    "phone": "No.113-1",
+    "name": "彭丽娜",
+    "department": "财务部"
+    },
+    {
+    "phone": "No.114-1",
+    "name": "冯安安",
+    "department": "法务部"
+    },
+    {
+    "phone": "No.115-1",
+    "name": "韩笑",
+    "department": "法务部"
+    },
+    {
+    "phone": "No.116-1",
+    "name": "史晓梅",
+    "department": "法务部"
+    },
+    {
+    "phone": "No.117-1",
+    "name": "魏鑫",
+    "department": "法务部"
+    },
+    {
+    "phone": "No.118-1",
+    "name": "周雪琦",
+    "department": "法务部"
+    },
+    {
+    "phone": "No.119-1",
+    "name": "王双",
+    "department": "人力资源部"
+    },
+    {
+    "phone": "No.120-1",
+    "name": "王晨",
+    "department": "人力资源部"
+    },
+    {
+    "phone": "No.121-1",
+    "name": "张琳",
+    "department": "人力资源部"
+    },
+    {
+    "phone": "No.122-1",
+    "name": "冯月",
+    "department": "人力资源部"
+    },
+    {
+    "phone": "No.123-1",
+    "name": "卢美合",
+    "department": "人力资源部"
+    },
+    {
+    "phone": "No.124-1",
+    "name": "许雪涛",
+    "department": "人力资源部"
+    },
+    {
+    "phone": "No.125-1",
+    "name": "吴艳",
+    "department": "行政部"
+    },
+    {
+    "phone": "No.126-1",
+    "name": "胡宏伟",
+    "department": "行政部"
+    },
+    {
+    "phone": "No.127-1",
+    "name": "杨哲",
+    "department": "行政部"
+    },
+    {
+    "phone": "No.128-1",
+    "name": "王欣桐",
+    "department": "行政部"
+    },
+    {
+    "phone": "No.129-1",
+    "name": "高爽",
+    "department": "行政部"
+    },
+    {
+    "phone": "No.130-1",
+    "name": "章健",
+    "department": "行政部"
+    },
+    {
+    "phone": "No.131-1",
+    "name": "程一凡",
+    "department": "行政部"
+    },
+    {
+    "phone": "No.132-1",
+    "name": "陈阳",
+    "department": "行政部"
+    },
+    {
+    "phone": "No.133-1",
+    "name": "刘子夏",
+    "department": "春日部工作室"
+    },
+    {
+    "phone": "No.134-1",
+    "name": "李岳成",
+    "department": "春日部工作室"
+    },
+    {
+    "phone": "No.135-1",
+    "name": "胡斌",
+    "department": "春日部工作室"
+    },
+    {
+    "phone": "No.136-1",
+    "name": "王建朝",
+    "department": "春日部工作室"
+    },
+    {
+    "phone": "No.137-1",
+    "name": "欧阳易蔓",
+    "department": "春日部工作室"
+    },
+    {
+    "phone": "No.138-1",
+    "name": "邢艳艳",
+    "department": "春日部工作室"
+    },
+    {
+    "phone": "No.139-1",
+    "name": "彭聆",
+    "department": "节目很2工作室"
+    },
+    {
+    "phone": "No.140-1",
+    "name": "王力民",
+    "department": "节目很2工作室"
+    },
+    {
+    "phone": "No.141-1",
+    "name": "刘真",
+    "department": "节目很2工作室"
+    },
+    {
+    "phone": "No.142-1",
+    "name": "蒯琀兮",
+    "department": "节目很2工作室"
+    },
+    {
+    "phone": "No.143-1",
+    "name": "陈昱杉",
+    "department": "毛雪汪工作室"
+    },
+    {
+    "phone": "No.144-1",
+    "name": "王耶聿非",
+    "department": "毛雪汪工作室"
+    },
+    {
+    "phone": "No.145-1",
+    "name": "杨晶晶",
+    "department": "项目管理中心"
+    },
+    {
+    "phone": "No.146-1",
+    "name": "王美凤",
+    "department": "项目管理中心"
+    },
+    {
+    "phone": "No.147-1",
+    "name": "孟靖凯",
+    "department": "项目管理中心"
+    },
+    {
+    "phone": "No.148-1",
+    "name": "唐勇",
+    "department": "项目管理中心"
+    },
+    {
+    "phone": "No.149-1",
+    "name": "孙明月",
+    "department": "项目管理中心"
+    },
+    {
+    "phone": "No.150-1",
+    "name": "朱樱子",
+    "department": "项目管理中心"
+    },
+    {
+    "phone": "No.151-1",
+    "name": "钟颖",
+    "department": "项目管理中心"
+    },
+    {
+    "phone": "No.152-1",
+    "name": "商柏秋",
+    "department": "项目管理中心"
+    },
+    {
+    "phone": "No.153-1",
+    "name": "陆紫嫣",
+    "department": "榴莲工作室"
+    },
+    {
+    "phone": "No.154-1",
+    "name": "李泽豪",
+    "department": "榴莲工作室"
+    },
+    {
+    "phone": "No.155-1",
+    "name": "白翔",
+    "department": "榴莲工作室"
+    },
+    {
+    "phone": "No.156-1",
+    "name": "杨康宁",
+    "department": "节目很2工作室"
+    },
+    {
+    "phone": "No.157-1",
+    "name": "焉栩嘉",
+    "department": " 艺人"
+    },
+    {
+    "phone": "No.158-1",
+    "name": "谷嘉诚",
+    "department": " 艺人"
+    },
+    {
+    "phone": "No.159-1",
+    "name": "伍嘉成",
+    "department": " 艺人"
+    },
+    {
+    "phone": "No.160-1",
+    "name": "郭子凡",
+    "department": " 艺人"
+    },
+    {
+    "phone": "No.161-1",
+    "name": "赵磊",
+    "department": "艺人"
+    },
+    {
+    "phone": "No.162-1",
+    "name": "夏之光",
+    "department": " 艺人"
+    },
+    {
+    "phone": "No.163-1",
+    "name": "彭楚粤",
+    "department": " 艺人"
+    },
+    {
+    "phone": "No.164-1",
+    "name": "毛不易",
+    "department": " 艺人"
+    },
+    {
+    "phone": "No.165-1",
+    "name": "周震南",
+    "department": " 艺人"
+    },
+    {
+    "phone": "No.166-1",
+    "name": "马伯骞",
+    "department": " 艺人"
+    },
+    {
+    "phone": "No.167-1",
+    "name": "廖俊涛",
+    "department": " 艺人"
+    },
+    {
+    "phone": "No.168-1",
+    "name": "张洢豪",
+    "department": " 艺人"
+    },
+    {
+    "phone": "No.169-1",
+    "name": "蔡维泽",
+    "department": " 艺人"
+    },
+    {
+    "phone": "No.170-1",
+    "name": "翟潇闻",
+    "department": " 艺人"
+    },
+    {
+    "phone": "No.171-1",
+    "name": "张嘉元",
+    "department": " 艺人"
+    },
+    {
+    "phone": "No.172-1",
+    "name": "田鸿杰",
+    "department": " 艺人"
+    },
+    {
+    "phone": "No.173-1",
+    "name": "马哲",
+    "department": "艺人"
+    },
+    {
+    "phone": "No.174-1",
+    "name": "赵珂",
+    "department": "艺人"
+    },
+    {
+    "phone": "No.175-1",
+    "name": "李润祺",
+    "department": " 艺人"
+    },
+    {
+    "phone": "No.176-1",
+    "name": "蒋先贵",
+    "department": " 艺人"
+    },
+    {
+    "phone": "No.177-1",
+    "name": "庄主恒",
+    "department": " 艺人"
+    },
+    {
+    "phone": "No.178-1",
+    "name": "张睿熙",
+    "department": " 艺人"
+    },
+    {
+    "phone": "No.179-1",
+    "name": "邰衍智",
+    "department": " 艺人"
+    },
+    {
+    "phone": "No.180-1",
+    "name": "朱子昊",
+    "department": " 艺人"
+    },
+    {
+    "phone": "No.181-1",
+    "name": "陈俊旭",
+    "department": " 艺人"
+    },
+    {
+    "phone": "No.182-1",
+    "name": "王世承",
+    "department": " 艺人"
+    },
+    {
+    "phone": "No.183-1",
+    "name": "黄羿嘉",
+    "department": " 艺人"
+    },
+    {
+    "phone": "No.184-1",
+    "name": "沈毅峯",
+    "department": " 艺人"
+    },
+    {
+    "phone": "No.185-1",
+    "name": "黄盼盼",
+    "department": " 艺人"
+    }
 ]
 console.log('全部人员', memberAll.length)
 // 特等奖和一等奖过滤的人员
@@ -1078,7 +2004,931 @@ var filterArr = [
 console.log('过滤的人员', filterArr.length)
 // 祝福语
 var blessing = [
-  
+  {
+    "phone": "No.1-1",
+    "name": "马兰",
+    "department": " 影视1工作室"
+    },
+    {
+    "phone": "No.2-1",
+    "name": "刘琳",
+    "department": "影视1工作室"
+    },
+    {
+    "phone": "No.3-1",
+    "name": "曾贇",
+    "department": "影视2工作室"
+    },
+    {
+    "phone": "No.4-1",
+    "name": "王高阳",
+    "department": "影视2工作室"
+    },
+    {
+    "phone": "No.5-1",
+    "name": "王禹涵",
+    "department": "影视2工作室"
+    },
+    {
+    "phone": "No.6-1",
+    "name": "蒋伯骏",
+    "department": "影视2工作室"
+    },
+    {
+    "phone": "No.7-1",
+    "name": "刘妍",
+    "department": "影视2工作室"
+    },
+    {
+    "phone": "No.8-1",
+    "name": "钱路",
+    "department": "影视2工作室"
+    },
+    {
+    "phone": "No.9-1",
+    "name": "高洋",
+    "department": "影视2工作室"
+    },
+    {
+    "phone": "No.10-1",
+    "name": "王彤",
+    "department": "影视3工作室"
+    },
+    {
+    "phone": "No.11-1",
+    "name": "蘧彤彤",
+    "department": "影视3工作室"
+    },
+    {
+    "phone": "No.12-1",
+    "name": "赵孟凡",
+    "department": "影视3工作室"
+    },
+    {
+    "phone": "No.13-1",
+    "name": "陈文龙",
+    "department": "影视3工作室"
+    },
+    {
+    "phone": "No.14-1",
+    "name": "雷丙鑫",
+    "department": "影视3工作室"
+    },
+    {
+    "phone": "No.15-1",
+    "name": "芦悦",
+    "department": "影视3工作室"
+    },
+    {
+    "phone": "No.16-1",
+    "name": "薛理敏",
+    "department": "文学策划部"
+    },
+    {
+    "phone": "No.17-1",
+    "name": "王晓萌",
+    "department": "文学策划部"
+    },
+    {
+    "phone": "No.18-1",
+    "name": "史月",
+    "department": "文学策划部"
+    },
+    {
+    "phone": "No.19-1",
+    "name": "王思涵",
+    "department": "文学策划部"
+    },
+    {
+    "phone": "No.20-1",
+    "name": "李美玥",
+    "department": "文学策划部"
+    },
+    {
+    "phone": "No.21-1",
+    "name": "叶言真",
+    "department": "文学策划部"
+    },
+    {
+    "phone": "No.22-1",
+    "name": "蓝雅娜",
+    "department": "影视制作中心"
+    },
+    {
+    "phone": "No.23-1",
+    "name": "胡楠",
+    "department": "音乐产品中心"
+    },
+    {
+    "phone": "No.24-1",
+    "name": "李依纳",
+    "department": "演出运营部"
+    },
+    {
+    "phone": "No.25-1",
+    "name": "贾茹",
+    "department": "头部工作室"
+    },
+    {
+    "phone": "No.26-1",
+    "name": "倪毅",
+    "department": "Waa Music"
+    },
+    {
+    "phone": "No.27-1",
+    "name": "于紫东",
+    "department": "Waa Music"
+    },
+    {
+    "phone": "No.28-1",
+    "name": "吕聪",
+    "department": "Waa Music"
+    },
+    {
+    "phone": "No.29-1",
+    "name": "冯时",
+    "department": "Gee Music"
+    },
+    {
+    "phone": "No.30-1",
+    "name": "金彦君",
+    "department": "Gee Music"
+    },
+    {
+    "phone": "No.31-1",
+    "name": "王希",
+    "department": "Gee Music"
+    },
+    {
+    "phone": "No.32-1",
+    "name": "刘彤",
+    "department": "版权运营部"
+    },
+    {
+    "phone": "No.33-1",
+    "name": "郭冠男",
+    "department": "版权运营部"
+    },
+    {
+    "phone": "No.34-1",
+    "name": "崔梓琰",
+    "department": "版权运营部"
+    },
+    {
+    "phone": "No.35-1",
+    "name": "鞠鸿鹏",
+    "department": "会员产品部"
+    },
+    {
+    "phone": "No.36-1",
+    "name": "高绮蔚",
+    "department": "会员产品部"
+    },
+    {
+    "phone": "No.37-1",
+    "name": "蒋文夏",
+    "department": "会员产品部"
+    },
+    {
+    "phone": "No.38-1",
+    "name": "高雨欣",
+    "department": "会员产品部"
+    },
+    {
+    "phone": "No.39-1",
+    "name": "桑蕊",
+    "department": "会员产品部"
+    },
+    {
+    "phone": "No.40-1",
+    "name": "陈静怡",
+    "department": "品牌公关部"
+    },
+    {
+    "phone": "No.41-1",
+    "name": "赵昱琳",
+    "department": "品牌公关部"
+    },
+    {
+    "phone": "No.42-1",
+    "name": "李雨薇",
+    "department": "品牌公关部"
+    },
+    {
+    "phone": "No.43-1",
+    "name": "樊昭锦",
+    "department": "品牌公关部"
+    },
+    {
+    "phone": "No.44-1",
+    "name": "龙承菲",
+    "department": "品牌公关部"
+    },
+    {
+    "phone": "No.45-1",
+    "name": "杨晓榆",
+    "department": "品牌公关部"
+    },
+    {
+    "phone": "No.46-1",
+    "name": "赵硕",
+    "department": "音乐经纪中心"
+    },
+    {
+    "phone": "No.47-1",
+    "name": "王云琦",
+    "department": "音乐经纪中心"
+    },
+    {
+    "phone": "No.48-1",
+    "name": "单孟情",
+    "department": "音乐经纪中心"
+    },
+    {
+    "phone": "No.49-1",
+    "name": "杜禹潼",
+    "department": "艺人经纪二部"
+    },
+    {
+    "phone": "No.50-1",
+    "name": "郁立翱",
+    "department": "艺人经纪二部"
+    },
+    {
+    "phone": "No.51-1",
+    "name": "聂子涵",
+    "department": "艺人经纪二部"
+    },
+    {
+    "phone": "No.52-1",
+    "name": "修美乔",
+    "department": "艺人经纪二部"
+    },
+    {
+    "phone": "No.53-1",
+    "name": "赵莎莉",
+    "department": "艺人经纪四部"
+    },
+    {
+    "phone": "No.54-1",
+    "name": "邹奇格",
+    "department": "艺人经纪四部"
+    },
+    {
+    "phone": "No.55-1",
+    "name": "孙晓羽",
+    "department": "艺人经纪四部"
+    },
+    {
+    "phone": "No.56-1",
+    "name": "李筱竹",
+    "department": "艺人经纪四部"
+    },
+    {
+    "phone": "No.57-1",
+    "name": "刘子钰",
+    "department": "艺人经纪四部"
+    },
+    {
+    "phone": "No.58-1",
+    "name": "张盼盼",
+    "department": "艺人经纪四部"
+    },
+    {
+    "phone": "No.59-1",
+    "name": "刘晨",
+    "department": "艺人经纪四部"
+    },
+    {
+    "phone": "No.60-1",
+    "name": "王春婷",
+    "department": "艺人经纪四部"
+    },
+    {
+    "phone": "No.61-1",
+    "name": "王文瑄",
+    "department": "艺人经纪四部"
+    },
+    {
+    "phone": "No.62-1",
+    "name": "史玉蓉",
+    "department": "艺人经纪四部"
+    },
+    {
+    "phone": "No.63-1",
+    "name": "杨晓莹",
+    "department": "艺人经纪五部"
+    },
+    {
+    "phone": "No.64-1",
+    "name": "杨彩",
+    "department": "艺人经纪五部"
+    },
+    {
+    "phone": "No.65-1",
+    "name": "张畅",
+    "department": "艺人经纪五部"
+    },
+    {
+    "phone": "No.66-1",
+    "name": "陈洁",
+    "department": "艺人经纪五部"
+    },
+    {
+    "phone": "No.67-1",
+    "name": "林慧洁",
+    "department": "艺人经纪五部"
+    },
+    {
+    "phone": "No.68-1",
+    "name": "刘洺恺",
+    "department": "艺人经纪五部"
+    },
+    {
+    "phone": "No.69-1",
+    "name": "焦童童",
+    "department": "艺人经纪五部"
+    },
+    {
+    "phone": "No.70-1",
+    "name": "孙卫月",
+    "department": "艺人经纪五部"
+    },
+    {
+    "phone": "No.71-1",
+    "name": "陆东玥",
+    "department": "商务开发部"
+    },
+    {
+    "phone": "No.72-1",
+    "name": "龚澄",
+    "department": "商务开发部"
+    },
+    {
+    "phone": "No.73-1",
+    "name": "田慧",
+    "department": "影视经纪中心"
+    },
+    {
+    "phone": "No.74-1",
+    "name": "陈星",
+    "department": "艺人经纪六部"
+    },
+    {
+    "phone": "No.75-1",
+    "name": "高明君",
+    "department": "艺人经纪六部"
+    },
+    {
+    "phone": "No.76-1",
+    "name": "王萌",
+    "department": "艺人经纪六部"
+    },
+    {
+    "phone": "No.77-1",
+    "name": "蒋沁雪",
+    "department": "艺人经纪六部"
+    },
+    {
+    "phone": "No.78-1",
+    "name": "杨明",
+    "department": "艺人经纪六部"
+    },
+    {
+    "phone": "No.79-1",
+    "name": "王殊瑾",
+    "department": "艺人经纪八部"
+    },
+    {
+    "phone": "No.80-1",
+    "name": "张贺双",
+    "department": "艺人经纪八部"
+    },
+    {
+    "phone": "No.81-1",
+    "name": "王瑾",
+    "department": "艺人经纪八部"
+    },
+    {
+    "phone": "No.82-1",
+    "name": "刚义",
+    "department": "艺人经纪八部"
+    },
+    {
+    "phone": "No.83-1",
+    "name": "王芳",
+    "department": "艺人经纪八部"
+    },
+    {
+    "phone": "No.84-1",
+    "name": "刘禹芪",
+    "department": "艺人经纪八部"
+    },
+    {
+    "phone": "No.85-1",
+    "name": "戴翎",
+    "department": "艺人经纪九部"
+    },
+    {
+    "phone": "No.86-1",
+    "name": "张媛媛",
+    "department": "艺人经纪九部"
+    },
+    {
+    "phone": "No.87-1",
+    "name": "张鹿原",
+    "department": "艺人经纪九部"
+    },
+    {
+    "phone": "No.88-1",
+    "name": "张稀然",
+    "department": "艺人经纪九部"
+    },
+    {
+    "phone": "No.89-1",
+    "name": "刘方",
+    "department": "树苗经纪部"
+    },
+    {
+    "phone": "No.90-1",
+    "name": "张晨曦",
+    "department": "树苗经纪部"
+    },
+    {
+    "phone": "No.91-1",
+    "name": "谌特亮",
+    "department": "新人开发中心"
+    },
+    {
+    "phone": "No.92-1",
+    "name": "磨巧玲",
+    "department": "选角部"
+    },
+    {
+    "phone": "No.93-1",
+    "name": "张恒志",
+    "department": "选角部"
+    },
+    {
+    "phone": "No.94-1",
+    "name": "孙溥萱",
+    "department": "选角部"
+    },
+    {
+    "phone": "No.95-1",
+    "name": "郑达",
+    "department": "选角部"
+    },
+    {
+    "phone": "No.96-1",
+    "name": "姜楠",
+    "department": "管培部"
+    },
+    {
+    "phone": "No.97-1",
+    "name": "向芷筠",
+    "department": "管培部"
+    },
+    {
+    "phone": "No.98-1",
+    "name": "倪可欣",
+    "department": "运营部（新人）"
+    },
+    {
+    "phone": "No.99-1",
+    "name": "陈雯",
+    "department": "运营部（新人）"
+    },
+    {
+    "phone": "No.100-1",
+    "name": "鹿文萃",
+    "department": "战略发展部"
+    },
+    {
+    "phone": "No.101-1",
+    "name": "呼琰",
+    "department": "财务部"
+    },
+    {
+    "phone": "No.102-1",
+    "name": "韩冰",
+    "department": "财务部"
+    },
+    {
+    "phone": "No.103-1",
+    "name": "王征",
+    "department": "财务部"
+    },
+    {
+    "phone": "No.104-1",
+    "name": "王筱曼",
+    "department": "财务部"
+    },
+    {
+    "phone": "No.105-1",
+    "name": "张雪岩",
+    "department": "财务部"
+    },
+    {
+    "phone": "No.106-1",
+    "name": "邢蕾",
+    "department": "财务部"
+    },
+    {
+    "phone": "No.107-1",
+    "name": "唐晓婉",
+    "department": "财务部"
+    },
+    {
+    "phone": "No.108-1",
+    "name": "鞠琳",
+    "department": "财务部"
+    },
+    {
+    "phone": "No.109-1",
+    "name": "戴佳芮",
+    "department": "财务部"
+    },
+    {
+    "phone": "No.110-1",
+    "name": "严若宇",
+    "department": "财务部"
+    },
+    {
+    "phone": "No.111-1",
+    "name": "皮新妹",
+    "department": "财务部"
+    },
+    {
+    "phone": "No.112-1",
+    "name": "王柯彬",
+    "department": "财务部"
+    },
+    {
+    "phone": "No.113-1",
+    "name": "彭丽娜",
+    "department": "财务部"
+    },
+    {
+    "phone": "No.114-1",
+    "name": "冯安安",
+    "department": "法务部"
+    },
+    {
+    "phone": "No.115-1",
+    "name": "韩笑",
+    "department": "法务部"
+    },
+    {
+    "phone": "No.116-1",
+    "name": "史晓梅",
+    "department": "法务部"
+    },
+    {
+    "phone": "No.117-1",
+    "name": "魏鑫",
+    "department": "法务部"
+    },
+    {
+    "phone": "No.118-1",
+    "name": "周雪琦",
+    "department": "法务部"
+    },
+    {
+    "phone": "No.119-1",
+    "name": "王双",
+    "department": "人力资源部"
+    },
+    {
+    "phone": "No.120-1",
+    "name": "王晨",
+    "department": "人力资源部"
+    },
+    {
+    "phone": "No.121-1",
+    "name": "张琳",
+    "department": "人力资源部"
+    },
+    {
+    "phone": "No.122-1",
+    "name": "冯月",
+    "department": "人力资源部"
+    },
+    {
+    "phone": "No.123-1",
+    "name": "卢美合",
+    "department": "人力资源部"
+    },
+    {
+    "phone": "No.124-1",
+    "name": "许雪涛",
+    "department": "人力资源部"
+    },
+    {
+    "phone": "No.125-1",
+    "name": "吴艳",
+    "department": "行政部"
+    },
+    {
+    "phone": "No.126-1",
+    "name": "胡宏伟",
+    "department": "行政部"
+    },
+    {
+    "phone": "No.127-1",
+    "name": "杨哲",
+    "department": "行政部"
+    },
+    {
+    "phone": "No.128-1",
+    "name": "王欣桐",
+    "department": "行政部"
+    },
+    {
+    "phone": "No.129-1",
+    "name": "高爽",
+    "department": "行政部"
+    },
+    {
+    "phone": "No.130-1",
+    "name": "章健",
+    "department": "行政部"
+    },
+    {
+    "phone": "No.131-1",
+    "name": "程一凡",
+    "department": "行政部"
+    },
+    {
+    "phone": "No.132-1",
+    "name": "陈阳",
+    "department": "行政部"
+    },
+    {
+    "phone": "No.133-1",
+    "name": "刘子夏",
+    "department": "春日部工作室"
+    },
+    {
+    "phone": "No.134-1",
+    "name": "李岳成",
+    "department": "春日部工作室"
+    },
+    {
+    "phone": "No.135-1",
+    "name": "胡斌",
+    "department": "春日部工作室"
+    },
+    {
+    "phone": "No.136-1",
+    "name": "王建朝",
+    "department": "春日部工作室"
+    },
+    {
+    "phone": "No.137-1",
+    "name": "欧阳易蔓",
+    "department": "春日部工作室"
+    },
+    {
+    "phone": "No.138-1",
+    "name": "邢艳艳",
+    "department": "春日部工作室"
+    },
+    {
+    "phone": "No.139-1",
+    "name": "彭聆",
+    "department": "节目很2工作室"
+    },
+    {
+    "phone": "No.140-1",
+    "name": "王力民",
+    "department": "节目很2工作室"
+    },
+    {
+    "phone": "No.141-1",
+    "name": "刘真",
+    "department": "节目很2工作室"
+    },
+    {
+    "phone": "No.142-1",
+    "name": "蒯琀兮",
+    "department": "节目很2工作室"
+    },
+    {
+    "phone": "No.143-1",
+    "name": "陈昱杉",
+    "department": "毛雪汪工作室"
+    },
+    {
+    "phone": "No.144-1",
+    "name": "王耶聿非",
+    "department": "毛雪汪工作室"
+    },
+    {
+    "phone": "No.145-1",
+    "name": "杨晶晶",
+    "department": "项目管理中心"
+    },
+    {
+    "phone": "No.146-1",
+    "name": "王美凤",
+    "department": "项目管理中心"
+    },
+    {
+    "phone": "No.147-1",
+    "name": "孟靖凯",
+    "department": "项目管理中心"
+    },
+    {
+    "phone": "No.148-1",
+    "name": "唐勇",
+    "department": "项目管理中心"
+    },
+    {
+    "phone": "No.149-1",
+    "name": "孙明月",
+    "department": "项目管理中心"
+    },
+    {
+    "phone": "No.150-1",
+    "name": "朱樱子",
+    "department": "项目管理中心"
+    },
+    {
+    "phone": "No.151-1",
+    "name": "钟颖",
+    "department": "项目管理中心"
+    },
+    {
+    "phone": "No.152-1",
+    "name": "商柏秋",
+    "department": "项目管理中心"
+    },
+    {
+    "phone": "No.153-1",
+    "name": "陆紫嫣",
+    "department": "榴莲工作室"
+    },
+    {
+    "phone": "No.154-1",
+    "name": "李泽豪",
+    "department": "榴莲工作室"
+    },
+    {
+    "phone": "No.155-1",
+    "name": "白翔",
+    "department": "榴莲工作室"
+    },
+    {
+    "phone": "No.156-1",
+    "name": "杨康宁",
+    "department": "节目很2工作室"
+    },
+    {
+    "phone": "No.157-1",
+    "name": "焉栩嘉",
+    "department": " 艺人"
+    },
+    {
+    "phone": "No.158-1",
+    "name": "谷嘉诚",
+    "department": " 艺人"
+    },
+    {
+    "phone": "No.159-1",
+    "name": "伍嘉成",
+    "department": " 艺人"
+    },
+    {
+    "phone": "No.160-1",
+    "name": "郭子凡",
+    "department": " 艺人"
+    },
+    {
+    "phone": "No.161-1",
+    "name": "赵磊",
+    "department": "艺人"
+    },
+    {
+    "phone": "No.162-1",
+    "name": "夏之光",
+    "department": " 艺人"
+    },
+    {
+    "phone": "No.163-1",
+    "name": "彭楚粤",
+    "department": " 艺人"
+    },
+    {
+    "phone": "No.164-1",
+    "name": "毛不易",
+    "department": " 艺人"
+    },
+    {
+    "phone": "No.165-1",
+    "name": "周震南",
+    "department": " 艺人"
+    },
+    {
+    "phone": "No.166-1",
+    "name": "马伯骞",
+    "department": " 艺人"
+    },
+    {
+    "phone": "No.167-1",
+    "name": "廖俊涛",
+    "department": " 艺人"
+    },
+    {
+    "phone": "No.168-1",
+    "name": "张洢豪",
+    "department": " 艺人"
+    },
+    {
+    "phone": "No.169-1",
+    "name": "蔡维泽",
+    "department": " 艺人"
+    },
+    {
+    "phone": "No.170-1",
+    "name": "翟潇闻",
+    "department": " 艺人"
+    },
+    {
+    "phone": "No.171-1",
+    "name": "张嘉元",
+    "department": " 艺人"
+    },
+    {
+    "phone": "No.172-1",
+    "name": "田鸿杰",
+    "department": " 艺人"
+    },
+    {
+    "phone": "No.173-1",
+    "name": "马哲",
+    "department": "艺人"
+    },
+    {
+    "phone": "No.174-1",
+    "name": "赵珂",
+    "department": "艺人"
+    },
+    {
+    "phone": "No.175-1",
+    "name": "李润祺",
+    "department": " 艺人"
+    },
+    {
+    "phone": "No.176-1",
+    "name": "蒋先贵",
+    "department": " 艺人"
+    },
+    {
+    "phone": "No.177-1",
+    "name": "庄主恒",
+    "department": " 艺人"
+    },
+    {
+    "phone": "No.178-1",
+    "name": "张睿熙",
+    "department": " 艺人"
+    },
+    {
+    "phone": "No.179-1",
+    "name": "邰衍智",
+    "department": " 艺人"
+    },
+    {
+    "phone": "No.180-1",
+    "name": "朱子昊",
+    "department": " 艺人"
+    },
+    {
+    "phone": "No.181-1",
+    "name": "陈俊旭",
+    "department": " 艺人"
+    },
+    {
+    "phone": "No.182-1",
+    "name": "王世承",
+    "department": " 艺人"
+    },
+    {
+    "phone": "No.183-1",
+    "name": "黄羿嘉",
+    "department": " 艺人"
+    },
+    {
+    "phone": "No.184-1",
+    "name": "沈毅峯",
+    "department": " 艺人"
+    },
+    {
+    "phone": "No.185-1",
+    "name": "黄盼盼",
+    "department": " 艺人"
+    }
 ]
 // 一等奖要过滤掉的人
 // var firstPrize = [
