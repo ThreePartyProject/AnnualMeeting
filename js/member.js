@@ -375,11 +375,11 @@ var memberAll = [
   "name": "高明君",
   "department": "艺人经纪六部"
   },
-  {
-  "phone": "No.76",
-  "name": "王萌",
-  "department": "艺人经纪六部"
-  },
+  // {
+  // "phone": "No.76",
+  // "name": "王萌",
+  // "department": "艺人经纪六部"
+  // },
   {
   "phone": "No.77",
   "name": "蒋沁雪",
@@ -555,16 +555,16 @@ var memberAll = [
   "name": "皮新妹",
   "department": "财务部"
   },
-  {
-  "phone": "No.112",
-  "name": "王柯彬",
-  "department": "财务部"
-  },
-  {
-  "phone": "No.113",
-  "name": "彭丽娜",
-  "department": "财务部"
-  },
+  // {
+  // "phone": "No.112",
+  // "name": "王柯彬",
+  // "department": "财务部"
+  // },
+  // {
+  // "phone": "No.113",
+  // "name": "彭丽娜",
+  // "department": "财务部"
+  // },
   {
   "phone": "No.114",
   "name": "冯安安",
@@ -730,11 +730,11 @@ var memberAll = [
   "name": "王美凤",
   "department": "项目管理中心"
   },
-  {
-  "phone": "No.147",
-  "name": "孟靖凯",
-  "department": "项目管理中心"
-  },
+  // {
+  // "phone": "No.147",
+  // "name": "孟靖凯",
+  // "department": "项目管理中心"
+  // },
   {
   "phone": "No.148",
   "name": "唐勇",
@@ -1301,11 +1301,11 @@ var memberAll = [
     "name": "高明君",
     "department": "艺人经纪六部"
     },
-    {
-    "phone": "No.76-1",
-    "name": "王萌",
-    "department": "艺人经纪六部"
-    },
+    // {
+    // "phone": "No.76-1",
+    // "name": "王萌",
+    // "department": "艺人经纪六部"
+    // },
     {
     "phone": "No.77-1",
     "name": "蒋沁雪",
@@ -1481,16 +1481,16 @@ var memberAll = [
     "name": "皮新妹",
     "department": "财务部"
     },
-    {
-    "phone": "No.112-1",
-    "name": "王柯彬",
-    "department": "财务部"
-    },
-    {
-    "phone": "No.113-1",
-    "name": "彭丽娜",
-    "department": "财务部"
-    },
+    // {
+    // "phone": "No.112-1",
+    // "name": "王柯彬",
+    // "department": "财务部"
+    // },
+    // {
+    // "phone": "No.113-1",
+    // "name": "彭丽娜",
+    // "department": "财务部"
+    // },
     {
     "phone": "No.114-1",
     "name": "冯安安",
@@ -1656,11 +1656,11 @@ var memberAll = [
     "name": "王美凤",
     "department": "项目管理中心"
     },
-    {
-    "phone": "No.147-1",
-    "name": "孟靖凯",
-    "department": "项目管理中心"
-    },
+    // {
+    // "phone": "No.147-1",
+    // "name": "孟靖凯",
+    // "department": "项目管理中心"
+    // },
     {
     "phone": "No.148-1",
     "name": "唐勇",
@@ -2379,11 +2379,11 @@ var blessing = [
     "name": "高明君",
     "department": "艺人经纪六部"
     },
-    {
-    "phone": "No.76-1",
-    "name": "王萌",
-    "department": "艺人经纪六部"
-    },
+    // {
+    // "phone": "No.76-1",
+    // "name": "王萌",
+    // "department": "艺人经纪六部"
+    // },
     {
     "phone": "No.77-1",
     "name": "蒋沁雪",
@@ -2559,16 +2559,16 @@ var blessing = [
     "name": "皮新妹",
     "department": "财务部"
     },
-    {
-    "phone": "No.112-1",
-    "name": "王柯彬",
-    "department": "财务部"
-    },
-    {
-    "phone": "No.113-1",
-    "name": "彭丽娜",
-    "department": "财务部"
-    },
+    // {
+    // "phone": "No.112-1",
+    // "name": "王柯彬",
+    // "department": "财务部"
+    // },
+    // {
+    // "phone": "No.113-1",
+    // "name": "彭丽娜",
+    // "department": "财务部"
+    // },
     {
     "phone": "No.114-1",
     "name": "冯安安",
@@ -2734,11 +2734,11 @@ var blessing = [
     "name": "王美凤",
     "department": "项目管理中心"
     },
-    {
-    "phone": "No.147-1",
-    "name": "孟靖凯",
-    "department": "项目管理中心"
-    },
+    // {
+    // "phone": "No.147-1",
+    // "name": "孟靖凯",
+    // "department": "项目管理中心"
+    // },
     {
     "phone": "No.148-1",
     "name": "唐勇",
