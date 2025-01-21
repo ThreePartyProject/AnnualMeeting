@@ -91,25 +91,25 @@
         .result {
             position: absolute;
             height: 370px;
-            width: 880px;
+            width: 1300px;
             left: 0; 
             top: 50%;
             left: 50%;
             margin-top: -185px;
-            margin-left: -440px;
+            margin-left: -570px;
             text-align: center;
             padding: 10px;
             display: none;
         }
         .result-tit {
-          font-size: 50px;
-          margin-bottom: 50px;
+          font-size: 86px;
+          margin-bottom: 150px;
           color: #ffffff;
         }
         .result span {
             display: inline-block;
-            font-size: 40px;
-            width: 200px;
+            font-size: 60px;
+            width: 240px;
             /* background: #fff; */
             line-height: 30px;
             color: #ffffff;
@@ -118,9 +118,18 @@
             /* box-shadow: 0 5px 10px rgba(0, 0, 0, 0.8); */
             padding: 10px 0;
         }
+        .result span.w4or4or2 {
+          width: 150px;
+          font-size: 60px;
+        }
+        #result #result-box.w2or3 span{
+          width: 426px;
+          font-size: 60px;
+          margin: 30px 0;
+        }
         .result span.w2or3 {
           width: 233px;
-          font-size: 40px;
+          font-size: 60px;
         }
         .result span.f50 {
             font-size: 120px;
@@ -698,22 +707,27 @@
                                   titName ='四等奖'
                                 break;
                               }
+                              $('#result #result-box').removeClass('w2or3');
                               if (selectLevel === 6) {
                                 // 终极大奖，隐藏标题
-                                $('#result .result-tit').css("display", 'none')
+                                $('#result .result-tit').css("display", 'block')
+                                $('#result .result-tit').html(titName)
                               } else {
                                 $('#result .result-tit').css("display", 'block')
                                 $('#result .result-tit').html(titName)
                               }
                               if (selectLevel === 0 || selectLevel === 1) {
                                 // 特等奖和一等奖 名字大一点
-                                $('#result #result-box').html('<span class="f50">' + ret.join('</span><span>') + '</span>');
+                                // $('#result #result-box').html('<span class="f50">' + ret.join('</span><span>') + '</span>');
+                                $('#result #result-box').html('<span>' + ret.join('</span><span>') + '</span>');
                               } else if (selectLevel === 6) {
                                 // 终极大奖
-                                $('#result #result-box').html('<span class="f70">' + ret.join('</span><span>') + '</span>');
-                              } else if (selectLevel === 2 || selectLevel === 3) {
+                                //  class="f70"
+                                $('#result #result-box').html('<span>' + ret.join('</span><span>') + '</span>');
+                              } else if (selectLevel === 2 || selectLevel === 3 || selectLevel === 4 || selectLevel === 7) {
                                 // 二等奖或者三等奖
-                                $('#result #result-box').html('<span class="w2or3">' + ret.join('</span><span>') + '</span>');
+                                $('#result #result-box').addClass('w2or3');
+                                $('#result #result-box').html('<span>' + ret.join('</span><span>') + '</span>');
                               } else {
                                 $('#result #result-box').html('<span>' + ret.join('</span><span>') + '</span>');
                               }
