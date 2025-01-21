@@ -1,12 +1,13 @@
 * {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
   cursor: pointer;
+  font-family: 'PingFangSc, PingFang SC';
 }
 
-@font-face {
-  font-family: 'wjjw'; /*字体名称*/ 
-  src: url("../fonts/ysbth.ttf") format("truetype"); /*字体路径和格式*/
-}
+/* @font-face {
+  font-family: 'wjjw';
+  src: url("../fonts/ysbth.ttf") format("truetype");
+} */
 
 body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre,
 form, fieldset, input, textarea, p, blockquote, th, td {
@@ -16,7 +17,7 @@ form, fieldset, input, textarea, p, blockquote, th, td {
     box-sizing: border-box;
     word-wrap: break-word;
     word-break: break-all;
-    font-family: 'wjjw'; /*优先使用自定义字体*/
+    /* font-family: 'wjjw';  */
 }
 
 table {

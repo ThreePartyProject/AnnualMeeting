@@ -42,17 +42,19 @@
           color: #FFFFFF;
           line-height: 154px;
           letter-spacing: 16px;
+          text-shadow: 0px 4px 2px #FFAE25;
           text-align: center;
           font-style: normal;
         }
         .tools-item .gif {
           font-family: PingFangSC, PingFang SC;
           font-weight: 400;
-          font-size: 48px;
+          font-size: 60px;
           color: #FFFFFF;
           line-height: 67px;
           text-align: center;
           font-style: normal;
+          margin-top: 50px;
         }
         .tools-item img {
           width: 100%;
@@ -63,7 +65,6 @@
           font-size: 86px;
           color: #FFFFFF;
           line-height: 121px;
-          text-shadow: 0px 4px 2px #FFAE25;
           text-align: center;
           font-style: normal;
         }
@@ -108,7 +109,7 @@
         .result span {
             display: inline-block;
             font-size: 40px;
-            width: 150px;
+            width: 200px;
             /* background: #fff; */
             line-height: 30px;
             color: #ffffff;
@@ -269,17 +270,17 @@
     <div class="tools-item left">
       <!-- <img src="img/2025/left.png" alt=""> -->
       <div class="gif-title">抽奖环节</div>
-      <p class="tip" v-if="selectLevel == 0">特等奖（1）个</p>
-      <p class="tip" v-if="selectLevel == 1">一等奖（1）个</p>
-      <p class="tip" v-if="selectLevel == 2">二等奖（3）个</p>
-      <p class="tip" v-if="selectLevel == 3">三等奖（5）个</p>
-      <p class="tip" v-if="selectLevel == 4">四等奖（5）个</p>
-      <p class="tip" v-if="selectLevel == 5">五等奖（10）个</p>
-      <p class="tip" v-if="selectLevel == 6">即兴奖（1）个</p>
-      <p class="tip" v-if="selectLevel == 7">四等奖（5）个</p>
+      <p class="tip" v-if="selectLevel == 0">特等奖</p>
+      <p class="tip" v-if="selectLevel == 1">一等奖</p>
+      <p class="tip" v-if="selectLevel == 2">二等奖</p>
+      <p class="tip" v-if="selectLevel == 3">三等奖</p>
+      <p class="tip" v-if="selectLevel == 4">四等奖</p>
+      <p class="tip" v-if="selectLevel == 5">五等奖</p>
+      <p class="tip" v-if="selectLevel == 6">终极大奖</p>
+      <p class="tip" v-if="selectLevel == 7">四等奖</p>
       <div class="gif" v-if="selectLevel == 0">五万元</div>
-      <div class="gif" v-if="selectLevel == 1">2024 MacBook pro</div>
-      <div class="gif" v-if="selectLevel == 2">iPhone16 pro Max</div>
+      <div class="gif" v-if="selectLevel == 1">2024 MacBook Pro</div>
+      <div class="gif" v-if="selectLevel == 2">iPhone16 Pro Max</div>
       <div class="gif" v-if="selectLevel == 3">iPad Air</div>
       <div class="gif" v-if="selectLevel == 4">AirPods Max</div>
       <div class="gif" v-if="selectLevel == 5">京东购物卡1000元</div>
@@ -289,17 +290,17 @@
     <div class="tools-item right">
       <!-- <img src="img/2025/left.png" alt=""> -->
       <div class="gif-title">抽奖环节</div>
-      <p class="tip" v-if="selectLevel == 0">特等奖（1）个</p>
-      <p class="tip" v-if="selectLevel == 1">一等奖（1）个</p>
-      <p class="tip" v-if="selectLevel == 2">二等奖（3）个</p>
-      <p class="tip" v-if="selectLevel == 3">三等奖（5）个</p>
-      <p class="tip" v-if="selectLevel == 4">四等奖（5）个</p>
-      <p class="tip" v-if="selectLevel == 5">五等奖（10）个</p>
-      <p class="tip" v-if="selectLevel == 6">即兴奖（1）个</p>
-      <p class="tip" v-if="selectLevel == 7">四等奖（5）个</p>
+      <p class="tip" v-if="selectLevel == 0">特等奖</p>
+      <p class="tip" v-if="selectLevel == 1">一等奖</p>
+      <p class="tip" v-if="selectLevel == 2">二等奖</p>
+      <p class="tip" v-if="selectLevel == 3">三等奖</p>
+      <p class="tip" v-if="selectLevel == 4">四等奖</p>
+      <p class="tip" v-if="selectLevel == 5">五等奖</p>
+      <p class="tip" v-if="selectLevel == 6">终极大奖</p>
+      <p class="tip" v-if="selectLevel == 7">四等奖</p>
       <div class="gif" v-if="selectLevel == 0">五万元</div>
-      <div class="gif" v-if="selectLevel == 1">2024 MacBook pro</div>
-      <div class="gif" v-if="selectLevel == 2">iPhone16 pro Max</div>
+      <div class="gif" v-if="selectLevel == 1">2024 MacBook Pro</div>
+      <div class="gif" v-if="selectLevel == 2">iPhone16 Pro Max</div>
       <div class="gif" v-if="selectLevel == 3">iPad Air</div>
       <div class="gif" v-if="selectLevel == 4">AirPods Max</div>
       <div class="gif" v-if="selectLevel == 5">京东购物卡1000元</div>
@@ -335,7 +336,7 @@
     <p class="tip" v-if="selectLevel == 3">当前抽奖类型：三等奖</p>
     <p class="tip" v-if="selectLevel == 4">当前抽奖类型：四等奖</p>
     <p class="tip" v-if="selectLevel == 5">当前抽奖类型：五等奖</p>
-    <p class="tip" v-if="selectLevel == 6">当前抽奖类型：即兴奖</p> -->
+    <p class="tip" v-if="selectLevel == 6">当前抽奖类型：终极大奖</p> -->
     <!-- 按钮注释 -->
     <!-- <button
       v-for="value in btns"
@@ -427,7 +428,7 @@
                       m.index = index;
                       return !choosedZjdj[getKey(m)];
                     })
-                    console.log('即兴奖的参与人数：', allPersons)
+                    console.log('终极大奖的参与人数：', allPersons)
                   } else {
                     // 特等奖到5等奖 抽奖之前要 过滤掉 已近中了的人
                     var allPersons = member.filter(function(m, index){
@@ -473,7 +474,8 @@
               var canvas = document.createElement('canvas');
               canvas.id = 'myCanvas';
               canvas.width = document.getElementById('main').offsetWidth;
-              canvas.height = document.getElementById('main').offsetHeight - 20;
+              //canvas.height = document.getElementById('main').offsetHeight - 20;
+              canvas.height = 2000;
               document.getElementById('main').appendChild(canvas);
               new Vue({
                   el: '#tools',
@@ -495,7 +497,7 @@
                         name: '一等奖'
                       },{
                         type: 2,
-                        num: 5,
+                        num: 3,
                         name: '二等奖'
                       },{
                         type: 3,
@@ -504,11 +506,11 @@
                       },{
                         type: 4,
                         num: 5,
-                        name: '四等奖(耳机)'
+                        name: '四等奖'
                       },{
                         type: 7,
                         num: 5,
-                        name: '四等奖(吸尘器)'
+                        name: '四等奖'
                       },{
                         type: 5,
                         num: 10,
@@ -516,7 +518,7 @@
                       },{
                         type: 6,
                         num: 1,
-                        name: '即兴奖'
+                        name: '终极大奖'
                       }]
                   },
                   watch: {
@@ -541,7 +543,7 @@
                           // fadeIn:3000,
                           // shape:'Sphere' // Sphere hcylinder vcylinder
                           // depth: 1
-                          maxSpeed: 0.4, // 旋转的速度
+                          maxSpeed: 0.1, // 旋转的速度
                       });
                       // 键盘控制的逻辑
                       document.addEventListener("keydown",e => {
@@ -575,7 +577,7 @@
                           let item = this.btns.filter(item => item.type === 5)[0]
                           _this.onClick(item)
                         } else if(e.keyCode === 55) {
-                          console.log('即兴奖')
+                          console.log('终极大奖')
                           let item = this.btns.filter(item => item.type === 6)[0]
                           _this.onClick(item)
                         }
@@ -684,20 +686,20 @@
                                   titName ='三等奖'
                                 break;
                                 case 4:
-                                  titName ='四等奖(耳机)'
+                                  titName ='四等奖'
                                 break;
                                 case 5:
                                   titName ='五等奖'
                                 break;
                                 case 6:
-                                  titName ='即兴奖'
+                                  titName ='终极大奖'
                                 break;
                                 case 7:
-                                  titName ='四等奖(吸尘器)'
+                                  titName ='四等奖'
                                 break;
                               }
                               if (selectLevel === 6) {
-                                // 即兴奖，隐藏标题
+                                // 终极大奖，隐藏标题
                                 $('#result .result-tit').css("display", 'none')
                               } else {
                                 $('#result .result-tit').css("display", 'block')
@@ -707,7 +709,7 @@
                                 // 特等奖和一等奖 名字大一点
                                 $('#result #result-box').html('<span class="f50">' + ret.join('</span><span>') + '</span>');
                               } else if (selectLevel === 6) {
-                                // 即兴奖
+                                // 终极大奖
                                 $('#result #result-box').html('<span class="f70">' + ret.join('</span><span>') + '</span>');
                               } else if (selectLevel === 2 || selectLevel === 3) {
                                 // 二等奖或者三等奖
