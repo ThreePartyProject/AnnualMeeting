@@ -288,6 +288,7 @@
       <p class="tip" v-if="selectLevel == 5">五等奖</p>
       <p class="tip" v-if="selectLevel == 6">终极大奖</p>
       <p class="tip" v-if="selectLevel == 7">四等奖</p>
+      <p class="tip" v-if="selectLevel == 8">哇唧子公司</p>
       <div class="gif" v-if="selectLevel == 0">五万元</div>
       <div class="gif" v-if="selectLevel == 1">2024 MacBook Pro</div>
       <div class="gif" v-if="selectLevel == 2">iPhone16 Pro Max</div>
@@ -308,6 +309,7 @@
       <p class="tip" v-if="selectLevel == 5">五等奖</p>
       <p class="tip" v-if="selectLevel == 6">终极大奖</p>
       <p class="tip" v-if="selectLevel == 7">四等奖</p>
+      <p class="tip" v-if="selectLevel == 8">哇唧子公司</p>
       <div class="gif" v-if="selectLevel == 0">五万元</div>
       <div class="gif" v-if="selectLevel == 1">2024 MacBook Pro</div>
       <div class="gif" v-if="selectLevel == 2">iPhone16 Pro Max</div>
@@ -410,7 +412,7 @@
                   var color = 'yellow';
                   console.log('过滤的逻辑', selectLevel)
                   if(!this.running){ // 点击开始按钮的时候过滤
-                    if (selectLevel === 0 || selectLevel === 1 || selectLevel === 2 ) { // || selectLevel === 6
+                    if (selectLevel === 0 || selectLevel === 1 || selectLevel === 2 || selectLevel === 6 ) { // || selectLevel === 6
                       console.log('zouzhelile', member.length, memberAll.length)
                       // 1等奖或者特等奖  过滤掉指定的人员
                       member = memberAll.filter(function(item) {  
@@ -423,6 +425,9 @@
                         });  
                       });  
                       console.log('1等奖的所有抽奖名单：', member)
+                    } else if (selectLevel === 8) {
+                      member = memberAll5To1
+                      console.log('5选1的所有抽奖名单：', member)
                     } else {
                       // 默认全部的数据
                       member = memberAll.filter(function(item) {  
@@ -529,6 +534,10 @@
                         type: 6,
                         num: 1,
                         name: '终极大奖'
+                      },{
+                        type: 8,
+                        num: 1,
+                        name: '哇唧子公司'
                       }]
                   },
                   watch: {
@@ -626,12 +635,16 @@
                               selectLevel = 4
                               break;
                             case 6:
-                              _this.selectLevel = 5
-                              selectLevel = 5
+                              _this.selectLevel = 8
+                              selectLevel = 8
                               break;
                             case 7:
                               _this.selectLevel = 3
                               selectLevel = 3
+                              break;
+                            case 8:
+                              _this.selectLevel = 5
+                              selectLevel = 5
                               break;
                             default:
                           }
@@ -707,6 +720,9 @@
                                 case 7:
                                   titName ='四等奖'
                                 break;
+                                case 8:
+                                  titName ='哇唧子公司'
+                                break;
                               }
                               $('#result #result-box').removeClass('w2or3');
                               if (selectLevel === 6) {
@@ -721,7 +737,7 @@
                                 // 特等奖和一等奖 名字大一点
                                 $('#result #result-box').html('<span class="f50">' + ret.join('</span><span>') + '</span>');
                                 // $('#result #result-box').html('<span>' + ret.join('</span><span>') + '</span>');
-                              } else if (selectLevel === 6) {
+                              } else if (selectLevel === 6 || selectLevel === 8) {
                                 // 终极大奖
                                 //  class="f70"
                                 $('#result #result-box').html('<span class="f50">' + ret.join('</span><span>') + '</span>');

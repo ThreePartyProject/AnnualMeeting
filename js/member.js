@@ -2001,6 +2001,28 @@ var filterArr = [
   "department": " 艺人"
   }
 ]
+var memberAll5To1 = [
+  {
+  "phone": "No.186",
+  "name": "正在登陆",
+  "department": "子公司"
+  },
+  {
+  "phone": "No.187",
+  "name": "北极星",
+  "department": "子公司"
+  },
+  {
+  "phone": "No.188",
+  "name": "IDG",
+  "department": "子公司"
+  },
+  {
+  "phone": "No.189",
+  "name": "新雨空山",
+  "department": "子公司"
+  }
+]
 console.log('过滤的人员', filterArr.length)
 // 祝福语
 var blessing = [
