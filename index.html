@@ -285,7 +285,7 @@
       <p class="tip" v-if="selectLevel == 2">二等奖</p>
       <p class="tip" v-if="selectLevel == 3">三等奖</p>
       <p class="tip" v-if="selectLevel == 4">四等奖</p>
-      <p class="tip" v-if="selectLevel == 5">五等奖</p>
+      <p class="tip" v-if="selectLevel == 5">现金</p>
       <p class="tip" v-if="selectLevel == 6">终极大奖</p>
       <p class="tip" v-if="selectLevel == 7">四等奖</p>
       <p class="tip" v-if="selectLevel == 8">哇唧子公司</p>
@@ -294,7 +294,7 @@
       <div class="gif" v-if="selectLevel == 2">iPhone16 Pro Max</div>
       <div class="gif" v-if="selectLevel == 3">iPad Air</div>
       <div class="gif" v-if="selectLevel == 4">AirPods Max</div>
-      <div class="gif" v-if="selectLevel == 5">京东购物卡1000元</div>
+      <div class="gif" v-if="selectLevel == 5">8888</div>
       <!-- <div class="gif" v-if="selectLevel == 6">暂无</div> -->
       <div class="gif" v-if="selectLevel == 7">戴森吸尘器</div>
     </div>
@@ -306,7 +306,7 @@
       <p class="tip" v-if="selectLevel == 2">二等奖</p>
       <p class="tip" v-if="selectLevel == 3">三等奖</p>
       <p class="tip" v-if="selectLevel == 4">四等奖</p>
-      <p class="tip" v-if="selectLevel == 5">五等奖</p>
+      <p class="tip" v-if="selectLevel == 5">现金</p>
       <p class="tip" v-if="selectLevel == 6">终极大奖</p>
       <p class="tip" v-if="selectLevel == 7">四等奖</p>
       <p class="tip" v-if="selectLevel == 8">哇唧子公司</p>
@@ -315,7 +315,7 @@
       <div class="gif" v-if="selectLevel == 2">iPhone16 Pro Max</div>
       <div class="gif" v-if="selectLevel == 3">iPad Air</div>
       <div class="gif" v-if="selectLevel == 4">AirPods Max</div>
-      <div class="gif" v-if="selectLevel == 5">京东购物卡1000元</div>
+      <div class="gif" v-if="selectLevel == 5">8888</div>
       <!-- <div class="gif" v-if="selectLevel == 6">暂无</div> -->
       <div class="gif" v-if="selectLevel == 7">戴森吸尘器</div>
     </div>
@@ -347,7 +347,7 @@
     <p class="tip" v-if="selectLevel == 2">当前抽奖类型：二等奖</p>
     <p class="tip" v-if="selectLevel == 3">当前抽奖类型：三等奖</p>
     <p class="tip" v-if="selectLevel == 4">当前抽奖类型：四等奖</p>
-    <p class="tip" v-if="selectLevel == 5">当前抽奖类型：五等奖</p>
+    <p class="tip" v-if="selectLevel == 5">当前抽奖类型：现金</p>
     <p class="tip" v-if="selectLevel == 6">当前抽奖类型：终极大奖</p> -->
     <!-- 按钮注释 -->
     <!-- <button
@@ -370,7 +370,7 @@
 <script type="text/javascript" src="js/vue.js"></script>
 <script type="text/javascript" src="js/tagcanvas.js"></script>
 <script type="text/javascript" src="js/member.js"></script>
-<!-- <script type="text/javascript" src="js/all.js"></script> -->
+<script type="text/javascript" src="js/all.js"></script>
 <script type="text/javascript">
   if (window.FontFace) {
       var fontFile = new FontFace('wjjw', 'url(./fonts/ysbth.ttf)');
@@ -380,7 +380,7 @@
           (function(){
               var _this
               var selectLevel = 5
-              var titName = '五等奖'
+              var titName = '现金'
               var member = memberAll.concat((blessing)); // .concat((blessing))
               console.log('总人数', member);
               var choosed = JSON.parse(localStorage.getItem('choosed')) || {};
@@ -450,7 +450,7 @@
                       m.index = index;
                       return !choosed[getKey(m)];
                     })
-                    console.log('当前奖项的参与人数：', allPersons)
+                    console.log('当前奖项的参与人数：', member, allPersons)
                   }
                   var ret = allPersons
                       // .filter(function(m, index){
@@ -495,50 +495,54 @@
               new Vue({
                   el: '#tools',
                   data: {
-                      selected: 10,
+                      selected: 5,
                       selectLevel: 5,
-                      selectName: '五等奖',
+                      selectName: '现金',
                       running: false,
                       // btns: [
                       //     30, 10, 5, 2, 1
                       // ],
-                      btns: [{
-                        type: 0,
-                        num: 1,
-                        name: '特等奖'
-                      },{
-                        type: 1,
-                        num: 1,
-                        name: '一等奖'
-                      },{
-                        type: 2,
-                        num: 3,
-                        name: '二等奖'
-                      },{
-                        type: 3,
-                        num: 5,
-                        name: '三等奖'
-                      },{
-                        type: 4,
-                        num: 5,
-                        name: '四等奖'
-                      },{
-                        type: 7,
-                        num: 5,
-                        name: '四等奖'
-                      },{
+                      btns: [
+                      // {
+                      //   type: 0,
+                      //   num: 1,
+                      //   name: '特等奖'
+                      // },{
+                      //   type: 1,
+                      //   num: 1,
+                      //   name: '一等奖'
+                      // },{
+                      //   type: 2,
+                      //   num: 3,
+                      //   name: '二等奖'
+                      // },{
+                      //   type: 3,
+                      //   num: 5,
+                      //   name: '三等奖'
+                      // },{
+                      //   type: 4,
+                      //   num: 5,
+                      //   name: '四等奖'
+                      // },{
+                      //   type: 7,
+                      //   num: 5,
+                      //   name: '四等奖'
+                      // },
+                      {
                         type: 5,
-                        num: 10,
-                        name: '五等奖'
-                      },{
-                        type: 6,
-                        num: 1,
-                        name: '终极大奖'
-                      },{
-                        type: 8,
-                        num: 1,
-                        name: '哇唧子公司'
-                      }]
+                        num: 5,
+                        name: '现金' // name: '五等奖'
+                      }
+                      // ,{
+                      //   type: 6,
+                      //   num: 1,
+                      //   name: '终极大奖'
+                      // },{
+                      //   type: 8,
+                      //   num: 1,
+                      //   name: '哇唧子公司'
+                      // }
+                    ]
                   },
                   watch: {
                     // selectLevel(n) {
@@ -592,7 +596,7 @@
                           let item = this.btns.filter(item => item.type === 7)[0]
                           _this.onClick(item)
                         } else if(e.keyCode === 54) {
-                          console.log('五等奖')
+                          console.log('现金')
                           let item = this.btns.filter(item => item.type === 5)[0]
                           _this.onClick(item)
                         } else if(e.keyCode === 55) {
@@ -712,7 +716,7 @@
                                   titName ='四等奖'
                                 break;
                                 case 5:
-                                  titName ='五等奖'
+                                  titName ='现金'
                                 break;
                                 case 6:
                                   titName ='终极大奖'
@@ -741,7 +745,7 @@
                                 // 终极大奖
                                 //  class="f70"
                                 $('#result #result-box').html('<span class="f50">' + ret.join('</span><span>') + '</span>');
-                              } else if (selectLevel === 2 || selectLevel === 3 || selectLevel === 4 || selectLevel === 7) {
+                              } else if (selectLevel === 2 || selectLevel === 3 || selectLevel === 5 || selectLevel === 7) {
                                 // 二等奖或者三等奖
                                 $('#result #result-box').addClass('w2or3');
                                 $('#result #result-box').html('<span>' + ret.join('</span><span>') + '</span>');
