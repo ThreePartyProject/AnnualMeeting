@@ -23,7 +23,7 @@
           width: 934px;
           height: 1181px;
           position: absolute;
-          top: 250px;
+          top: 490px;
           display: flex;
           flex-direction: column;
           align-items: center;
@@ -277,8 +277,7 @@
     <div id="result-box"></div>
   </div>
   <div id="tools" class="tools">
-    <div class="tools-item left">
-      <!-- <img src="img/2025/left.png" alt=""> -->
+    <!-- <div class="tools-item left">
       <div class="gif-title">抽奖环节</div>
       <p class="tip" v-if="selectLevel == 0">特等奖</p>
       <p class="tip" v-if="selectLevel == 1">一等奖</p>
@@ -295,9 +294,8 @@
       <div class="gif" v-if="selectLevel == 3">iPad Air</div>
       <div class="gif" v-if="selectLevel == 4">AirPods Max</div>
       <div class="gif" v-if="selectLevel == 5">8888</div>
-      <!-- <div class="gif" v-if="selectLevel == 6">暂无</div> -->
       <div class="gif" v-if="selectLevel == 7">戴森吸尘器</div>
-    </div>
+    </div> -->
     <div class="tools-item right">
       <!-- <img src="img/2025/left.png" alt=""> -->
       <div class="gif-title">抽奖环节</div>
@@ -488,7 +486,7 @@
               };
               var canvas = document.createElement('canvas');
               canvas.id = 'myCanvas';
-              canvas.width = document.getElementById('main').offsetWidth;
+              canvas.width = document.getElementById('main').offsetWidth - 200;
               //canvas.height = document.getElementById('main').offsetHeight - 20;
               canvas.height = 2000;
               document.getElementById('main').appendChild(canvas);
@@ -563,6 +561,8 @@
                           textHeight: 18,
                           textFont: 'wjjw',
                           textColour: '#0078D4',
+                          zoom: 0.8,
+                          offsetX: 200,
                           // outlineOffset: 50
                           // fadeIn:3000,
                           // shape:'Sphere' // Sphere hcylinder vcylinder
