@@ -124,9 +124,12 @@
           font-size: 60px;
         }
         #result #result-box.w2or3 span{
-          width: 426px;
+          width: 255px;
           font-size: 60px;
           margin: 30px 0;
+        }
+        #result #result-box.w2or3 span:nth-of-type(1), #result #result-box.w2or3 span:nth-of-type(2), #result #result-box.w2or3 span:nth-of-type(3), #result #result-box.w2or3 span:nth-of-type(4) {
+          width: 319px;
         }
         .result span.w2or3 {
           width: 233px;
@@ -493,7 +496,7 @@
               new Vue({
                   el: '#tools',
                   data: {
-                      selected: 5,
+                      selected: 9,
                       selectLevel: 5,
                       selectName: '现金',
                       running: false,
@@ -528,7 +531,7 @@
                       // },
                       {
                         type: 5,
-                        num: 5,
+                        num: 9,
                         name: '现金' // name: '五等奖'
                       }
                       // ,{
