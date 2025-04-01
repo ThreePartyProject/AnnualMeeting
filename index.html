@@ -90,12 +90,12 @@
         }
         .result {
             position: absolute;
-            height: 283px;
+            /* height: 283px; */
             width: 650px;
             left: 0; 
             top: 50%;
             left: 50%;
-            margin-top: -100px;
+            margin-top: -150px;
             margin-left: -120px;
             text-align: center;
             padding: 10px;
@@ -124,12 +124,13 @@
           font-size: 60px;
         }
         #result #result-box.w2or3 span{
-          width: 125px;
-          font-size: 30px;
+          width: 209px;
+          font-size: 60px;
+          line-height: 60px;
           margin: 15px 0;
         }
         #result #result-box.w2or3 span:nth-of-type(1), #result #result-box.w2or3 span:nth-of-type(2), #result #result-box.w2or3 span:nth-of-type(3), #result #result-box.w2or3 span:nth-of-type(4) {
-          width: 157px;
+          /* width: 157px; */
         }
         .result span.w2or3 {
           width: 58px;
@@ -283,9 +284,9 @@
     <div class="tools-item right">
       <!-- <img src="img/2025/left.png" alt=""> -->
       <div class="gif-title">抽奖环节</div>
-      <p class="tip" v-if="selectLevel == 3">惊喜大奖</p>
-      <p class="tip" v-if="selectLevel == 5">现金</p>
-      <div class="gif" v-if="selectLevel == 5">8888</div>
+      <p class="tip" v-if="selectLevel == 3">惊喜奖</p>
+      <p class="tip" v-if="selectLevel == 5">现金奖</p>
+      <div class="gif" v-if="selectLevel == 5">¥8888</div>
       <!-- <div class="gif" v-if="selectLevel == 6">暂无</div> -->
     </div>
     <div class="control">
@@ -314,9 +315,9 @@
     <!-- <p class="tip" v-if="selectLevel == 0">当前抽奖类型：特等奖</p>
     <p class="tip" v-if="selectLevel == 1">当前抽奖类型：一等奖</p>
     <p class="tip" v-if="selectLevel == 2">当前抽奖类型：二等奖</p>
-    <p class="tip" v-if="selectLevel == 3">当前抽奖类型：惊喜大奖</p>
+    <p class="tip" v-if="selectLevel == 3">当前抽奖类型：惊喜奖</p>
     <p class="tip" v-if="selectLevel == 4">当前抽奖类型：四等奖</p>
-    <p class="tip" v-if="selectLevel == 5">当前抽奖类型：现金</p>
+    <p class="tip" v-if="selectLevel == 5">当前抽奖类型：现金奖</p>
     <p class="tip" v-if="selectLevel == 6">当前抽奖类型：终极大奖</p> -->
     <!-- 按钮注释 -->
     <!-- <button
@@ -349,7 +350,7 @@
           (function(){
               var _this
               var selectLevel = 5
-              var titName = '现金'
+              var titName = '现金奖'
               var member = memberAll.concat((blessing)); // .concat((blessing))
               console.log('总人数', member);
               var choosed = JSON.parse(localStorage.getItem('choosed')) || {};
@@ -466,7 +467,7 @@
                   data: {
                       selected: 9,
                       selectLevel: 5,
-                      selectName: '现金',
+                      selectName: '现金奖',
                       running: false,
                       // btns: [
                       //     30, 10, 5, 2, 1
@@ -487,7 +488,7 @@
                       // },{
                       //   type: 3,
                       //   num: 5,
-                      //   name: '惊喜大奖'
+                      //   name: '惊喜奖'
                       // },{
                       //   type: 4,
                       //   num: 5,
@@ -500,12 +501,12 @@
                       {
                         type: 3,
                         num: 1,
-                        name: '惊喜大奖' // name: '五等奖'
+                        name: '惊喜奖' // name: '五等奖'
                       },
                       {
                         type: 5,
                         num: 9,
-                        name: '现金' // name: '五等奖'
+                        name: '现金奖' // name: '五等奖'
                       }
                       // ,{
                       //   type: 6,
@@ -549,11 +550,11 @@
                       document.addEventListener("keydown",e => {
                         console.info("keydown", e.keyCode);
                         if (e.keyCode === 49) { // 按键1
-                          console.log('现金')
+                          console.log('现金奖')
                           let item = this.btns.filter(item => item.type === 5)[0]
                           _this.onClick(item)
                         } else if(e.keyCode === 50) { // 按键2
-                          console.log('惊喜大奖')
+                          console.log('惊喜奖')
                           let item = this.btns.filter(item => item.type === 3)[0]
                           _this.onClick(item)
                         }
@@ -635,13 +636,13 @@
                                   titName ='二等奖'
                                 break;
                                 case 3:
-                                  titName ='惊喜大奖'
+                                  titName ='惊喜奖'
                                 break;
                                 case 4:
                                   titName ='四等奖'
                                 break;
                                 case 5:
-                                  titName ='现金'
+                                  titName ='现金奖'
                                 break;
                                 case 6:
                                   titName ='终极大奖'
@@ -671,7 +672,7 @@
                                 //  class="f70"
                                 $('#result #result-box').html('<span class="f50">' + ret.join('</span><span>') + '</span>');
                               } else if (selectLevel === 2 || selectLevel === 5 || selectLevel === 7) {
-                                // 二等奖或者惊喜大奖
+                                // 二等奖或者惊喜奖
                                 $('#result #result-box').addClass('w2or3');
                                 $('#result #result-box').html('<span>' + ret.join('</span><span>') + '</span>');
                               } else {
