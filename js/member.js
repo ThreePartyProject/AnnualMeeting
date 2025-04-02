@@ -1,15 +1,15 @@
 // 全部的数据
 var memberAll = [
-  {
-      "phone": "No.1",
-      "name": "马兰",
-      "department": "影视1工作室"
-  },
-  {
-      "phone": "No.2",
-      "name": "刘琳",
-      "department": "影视1工作室"
-  },
+  // {
+  //     "phone": "No.1",
+  //     "name": "马兰",
+  //     "department": "影视1工作室"
+  // },
+  // {
+  //     "phone": "No.2",
+  //     "name": "刘琳",
+  //     "department": "影视1工作室"
+  // },
   {
       "phone": "No.3",
       "name": "曾贇",
@@ -70,11 +70,11 @@ var memberAll = [
       "name": "雷丙鑫",
       "department": "影视3工作室"
   },
-  {
-      "phone": "No.15",
-      "name": "芦悦",
-      "department": "影视3工作室"
-  },
+  // {
+  //     "phone": "No.15",
+  //     "name": "芦悦",
+  //     "department": "影视3工作室"
+  // },
   {
       "phone": "No.16",
       "name": "薛理敏",
@@ -105,26 +105,26 @@ var memberAll = [
       "name": "叶言真",
       "department": "文学策划部"
   },
-  {
-      "phone": "No.22",
-      "name": "蓝雅娜",
-      "department": "影视制作中心"
-  },
+  // {
+  //     "phone": "No.22",
+  //     "name": "蓝雅娜",
+  //     "department": "影视制作中心"
+  // },
   {
       "phone": "No.23",
       "name": "胡楠",
       "department": "音乐产品中心"
   },
-  {
-      "phone": "No.24",
-      "name": "李依纳",
-      "department": "演出运营部"
-  },
-  {
-      "phone": "No.25",
-      "name": "贾茹",
-      "department": "头部工作室"
-  },
+  // {
+  //     "phone": "No.24",
+  //     "name": "李依纳",
+  //     "department": "演出运营部"
+  // },
+  // {
+  //     "phone": "No.25",
+  //     "name": "贾茹",
+  //     "department": "头部工作室"
+  // },
   {
       "phone": "No.26",
       "name": "倪毅",
@@ -160,16 +160,16 @@ var memberAll = [
       "name": "郭冠男",
       "department": "版权运营部"
   },
-  {
-      "phone": "No.33",
-      "name": "崔梓琰",
-      "department": "版权运营部"
-  },
-  {
-      "phone": "No.34",
-      "name": "陈奕宏",
-      "department": "版权运营部"
-  },
+  // {
+  //     "phone": "No.33",
+  //     "name": "崔梓琰",
+  //     "department": "版权运营部"
+  // },
+  // {
+  //     "phone": "No.34",
+  //     "name": "陈奕宏",
+  //     "department": "版权运营部"
+  // },
   {
       "phone": "No.35",
       "name": "鞠鸿鹏",
@@ -180,21 +180,21 @@ var memberAll = [
       "name": "高绮蔚",
       "department": "会员产品部"
   },
-  {
-      "phone": "No.37",
-      "name": "高雨欣",
-      "department": "会员产品部"
-  },
-  {
-      "phone": "No.38",
-      "name": "桑蕊",
-      "department": "会员产品部"
-  },
-  {
-      "phone": "No.39",
-      "name": "张楠",
-      "department": "会员产品部"
-  },
+  // {
+  //     "phone": "No.37",
+  //     "name": "高雨欣",
+  //     "department": "会员产品部"
+  // },
+  // {
+  //     "phone": "No.38",
+  //     "name": "桑蕊",
+  //     "department": "会员产品部"
+  // },
+  // {
+  //     "phone": "No.39",
+  //     "name": "张楠",
+  //     "department": "会员产品部"
+  // },
   {
       "phone": "No.40",
       "name": "陈静怡",
@@ -240,11 +240,11 @@ var memberAll = [
       "name": "单孟情",
       "department": "音乐经纪中心"
   },
-  {
-      "phone": "No.49",
-      "name": "王勇男",
-      "department": "音乐经纪中心"
-  },
+  // {
+  //     "phone": "No.49",
+  //     "name": "王勇男",
+  //     "department": "音乐经纪中心"
+  // },
   {
       "phone": "No.50",
       "name": "杜禹潼",
@@ -310,11 +310,11 @@ var memberAll = [
       "name": "史玉蓉",
       "department": "艺人经纪四部"
   },
-  {
-      "phone": "No.63",
-      "name": "王丹青",
-      "department": "艺人经纪四部"
-  },
+  // {
+  //     "phone": "No.63",
+  //     "name": "王丹青",
+  //     "department": "艺人经纪四部"
+  // },
   {
       "phone": "No.64",
       "name": "杨晓莹",
@@ -350,11 +350,11 @@ var memberAll = [
       "name": "焦童童",
       "department": "艺人经纪五部"
   },
-  {
-      "phone": "No.71",
-      "name": "孙卫月",
-      "department": "艺人经纪五部"
-  },
+  // {
+  //     "phone": "No.71",
+  //     "name": "孙卫月",
+  //     "department": "艺人经纪五部"
+  // },
   {
       "phone": "No.72",
       "name": "陆东玥",
@@ -365,16 +365,16 @@ var memberAll = [
       "name": "龚澄",
       "department": "商务开发部"
   },
-  {
-      "phone": "No.74",
-      "name": "高睿鸿",
-      "department": "商务开发部"
-  },
-  {
-      "phone": "No.75",
-      "name": "王子扬",
-      "department": "商务开发部"
-  },
+  // {
+  //     "phone": "No.74",
+  //     "name": "高睿鸿",
+  //     "department": "商务开发部"
+  // },
+  // {
+  //     "phone": "No.75",
+  //     "name": "王子扬",
+  //     "department": "商务开发部"
+  // },
   {
       "phone": "No.76",
       "name": "田慧",
@@ -400,11 +400,11 @@ var memberAll = [
       "name": "杨明",
       "department": "艺人经纪六部"
   },
-  {
-      "phone": "No.81",
-      "name": "常笑",
-      "department": "艺人经纪六部"
-  },
+  // {
+  //     "phone": "No.81",
+  //     "name": "常笑",
+  //     "department": "艺人经纪六部"
+  // },
   {
       "phone": "No.82",
       "name": "王殊瑾",
@@ -435,11 +435,11 @@ var memberAll = [
       "name": "刘禹芪",
       "department": "艺人经纪八部"
   },
-  {
-      "phone": "No.88",
-      "name": "葛红静",
-      "department": "艺人经纪八部"
-  },
+  // {
+  //     "phone": "No.88",
+  //     "name": "葛红静",
+  //     "department": "艺人经纪八部"
+  // },
   {
       "phone": "No.89",
       "name": "戴翎",
@@ -450,11 +450,11 @@ var memberAll = [
       "name": "张媛媛",
       "department": "艺人经纪九部"
   },
-  {
-      "phone": "No.91",
-      "name": "张鹿原",
-      "department": "艺人经纪九部"
-  },
+  // {
+  //     "phone": "No.91",
+  //     "name": "张鹿原",
+  //     "department": "艺人经纪九部"
+  // },
   {
       "phone": "No.92",
       "name": "张晨曦",
@@ -615,16 +615,16 @@ var memberAll = [
       "name": "陈阳",
       "department": "行政部"
   },
-  {
-      "phone": "No.124",
-      "name": "李诗颖",
-      "department": "节目很2工作室"
-  },
-  {
-      "phone": "No.125",
-      "name": "刘铭璋",
-      "department": "节目很2工作室"
-  },
+  // {
+  //     "phone": "No.124",
+  //     "name": "李诗颖",
+  //     "department": "节目很2工作室"
+  // },
+  // {
+  //     "phone": "No.125",
+  //     "name": "刘铭璋",
+  //     "department": "节目很2工作室"
+  // },
   {
       "phone": "No.126",
       "name": "陆紫嫣",
@@ -735,21 +735,21 @@ var memberAll = [
       "name": "白翔",
       "department": "中视频工作室"
   },
-  {
-      "phone": "No.148",
-      "name": "杨康宁",
-      "department": "节目很2工作室"
-  },
-  {
-      "phone": "No.149",
-      "name": "李诗颖",
-      "department": "节目很2工作室"
-  },
-  {
-      "phone": "No.150",
-      "name": "刘铭璋",
-      "department": "节目很2工作室"
-  },
+  // {
+  //     "phone": "No.148",
+  //     "name": "杨康宁",
+  //     "department": "节目很2工作室"
+  // },
+  // {
+  //     "phone": "No.149",
+  //     "name": "李诗颖",
+  //     "department": "节目很2工作室"
+  // },
+  // {
+  //     "phone": "No.150",
+  //     "name": "刘铭璋",
+  //     "department": "节目很2工作室"
+  // },
   {
       "phone": "No.151",
       "name": "谌特亮",
@@ -785,21 +785,21 @@ var memberAll = [
       "name": "向芷筠",
       "department": "管培部"
   },
-  {
-      "phone": "No.158",
-      "name": "刘丽娜",
-      "department": "管培部"
-  },
+  // {
+  //     "phone": "No.158",
+  //     "name": "刘丽娜",
+  //     "department": "管培部"
+  // },
   {
       "phone": "No.159",
       "name": "倪可欣",
       "department": "运营部（新人）"
   },
-  {
-      "phone": "No.160",
-      "name": "陈雯",
-      "department": "运营部（新人）"
-  },
+  // {
+  //     "phone": "No.160",
+  //     "name": "陈雯",
+  //     "department": "运营部（新人）"
+  // },
   {
       "phone": "No.161",
       "name": "王柯彬",
@@ -985,16 +985,16 @@ var memberAll5To1 = [
 console.log('过滤的人员', filterArr.length)
 // 祝福语
 var blessing = [
-  {
-      "phone": "No.1-1",
-      "name": "马兰",
-      "department": "影视1工作室"
-  },
-  {
-      "phone": "No.2-1",
-      "name": "刘琳",
-      "department": "影视1工作室"
-  },
+  // {
+  //     "phone": "No.1-1",
+  //     "name": "马兰",
+  //     "department": "影视1工作室"
+  // },
+  // {
+  //     "phone": "No.2-1",
+  //     "name": "刘琳",
+  //     "department": "影视1工作室"
+  // },
   {
       "phone": "No.3-1",
       "name": "曾贇",
@@ -1055,11 +1055,11 @@ var blessing = [
       "name": "雷丙鑫",
       "department": "影视3工作室"
   },
-  {
-      "phone": "No.15-1",
-      "name": "芦悦",
-      "department": "影视3工作室"
-  },
+  // {
+  //     "phone": "No.15-1",
+  //     "name": "芦悦",
+  //     "department": "影视3工作室"
+  // },
   {
       "phone": "No.16-1",
       "name": "薛理敏",
@@ -1090,26 +1090,26 @@ var blessing = [
       "name": "叶言真",
       "department": "文学策划部"
   },
-  {
-      "phone": "No.22-1",
-      "name": "蓝雅娜",
-      "department": "影视制作中心"
-  },
+  // {
+  //     "phone": "No.22-1",
+  //     "name": "蓝雅娜",
+  //     "department": "影视制作中心"
+  // },
   {
       "phone": "No.23-1",
       "name": "胡楠",
       "department": "音乐产品中心"
   },
-  {
-      "phone": "No.24-1",
-      "name": "李依纳",
-      "department": "演出运营部"
-  },
-  {
-      "phone": "No.25-1",
-      "name": "贾茹",
-      "department": "头部工作室"
-  },
+  // {
+  //     "phone": "No.24-1",
+  //     "name": "李依纳",
+  //     "department": "演出运营部"
+  // },
+  // {
+  //     "phone": "No.25-1",
+  //     "name": "贾茹",
+  //     "department": "头部工作室"
+  // },
   {
       "phone": "No.26-1",
       "name": "倪毅",
@@ -1145,16 +1145,16 @@ var blessing = [
       "name": "郭冠男",
       "department": "版权运营部"
   },
-  {
-      "phone": "No.33-1",
-      "name": "崔梓琰",
-      "department": "版权运营部"
-  },
-  {
-      "phone": "No.34-1",
-      "name": "陈奕宏",
-      "department": "版权运营部"
-  },
+  // {
+  //     "phone": "No.33-1",
+  //     "name": "崔梓琰",
+  //     "department": "版权运营部"
+  // },
+  // {
+  //     "phone": "No.34-1",
+  //     "name": "陈奕宏",
+  //     "department": "版权运营部"
+  // },
   {
       "phone": "No.35-1",
       "name": "鞠鸿鹏",
@@ -1165,21 +1165,21 @@ var blessing = [
       "name": "高绮蔚",
       "department": "会员产品部"
   },
-  {
-      "phone": "No.37-1",
-      "name": "高雨欣",
-      "department": "会员产品部"
-  },
-  {
-      "phone": "No.38-1",
-      "name": "桑蕊",
-      "department": "会员产品部"
-  },
-  {
-      "phone": "No.39-1",
-      "name": "张楠",
-      "department": "会员产品部"
-  },
+  // {
+  //     "phone": "No.37-1",
+  //     "name": "高雨欣",
+  //     "department": "会员产品部"
+  // },
+  // {
+  //     "phone": "No.38-1",
+  //     "name": "桑蕊",
+  //     "department": "会员产品部"
+  // },
+  // {
+  //     "phone": "No.39-1",
+  //     "name": "张楠",
+  //     "department": "会员产品部"
+  // },
   {
       "phone": "No.40-1",
       "name": "陈静怡",
@@ -1225,11 +1225,11 @@ var blessing = [
       "name": "单孟情",
       "department": "音乐经纪中心"
   },
-  {
-      "phone": "No.49-1",
-      "name": "王勇男",
-      "department": "音乐经纪中心"
-  },
+  // {
+  //     "phone": "No.49-1",
+  //     "name": "王勇男",
+  //     "department": "音乐经纪中心"
+  // },
   {
       "phone": "No.50-1",
       "name": "杜禹潼",
@@ -1295,11 +1295,11 @@ var blessing = [
       "name": "史玉蓉",
       "department": "艺人经纪四部"
   },
-  {
-      "phone": "No.63-1",
-      "name": "王丹青",
-      "department": "艺人经纪四部"
-  },
+  // {
+  //     "phone": "No.63-1",
+  //     "name": "王丹青",
+  //     "department": "艺人经纪四部"
+  // },
   {
       "phone": "No.64-1",
       "name": "杨晓莹",
@@ -1335,11 +1335,11 @@ var blessing = [
       "name": "焦童童",
       "department": "艺人经纪五部"
   },
-  {
-      "phone": "No.71-1",
-      "name": "孙卫月",
-      "department": "艺人经纪五部"
-  },
+  // {
+  //     "phone": "No.71-1",
+  //     "name": "孙卫月",
+  //     "department": "艺人经纪五部"
+  // },
   {
       "phone": "No.72-1",
       "name": "陆东玥",
@@ -1350,16 +1350,16 @@ var blessing = [
       "name": "龚澄",
       "department": "商务开发部"
   },
-  {
-      "phone": "No.74-1",
-      "name": "高睿鸿",
-      "department": "商务开发部"
-  },
-  {
-      "phone": "No.75-1",
-      "name": "王子扬",
-      "department": "商务开发部"
-  },
+  // {
+  //     "phone": "No.74-1",
+  //     "name": "高睿鸿",
+  //     "department": "商务开发部"
+  // },
+  // {
+  //     "phone": "No.75-1",
+  //     "name": "王子扬",
+  //     "department": "商务开发部"
+  // },
   {
       "phone": "No.76-1",
       "name": "田慧",
@@ -1385,11 +1385,11 @@ var blessing = [
       "name": "杨明",
       "department": "艺人经纪六部"
   },
-  {
-      "phone": "No.81-1",
-      "name": "常笑",
-      "department": "艺人经纪六部"
-  },
+  // {
+  //     "phone": "No.81-1",
+  //     "name": "常笑",
+  //     "department": "艺人经纪六部"
+  // },
   {
       "phone": "No.82-1",
       "name": "王殊瑾",
@@ -1420,11 +1420,11 @@ var blessing = [
       "name": "刘禹芪",
       "department": "艺人经纪八部"
   },
-  {
-      "phone": "No.88-1",
-      "name": "葛红静",
-      "department": "艺人经纪八部"
-  },
+  // {
+  //     "phone": "No.88-1",
+  //     "name": "葛红静",
+  //     "department": "艺人经纪八部"
+  // },
   {
       "phone": "No.89-1",
       "name": "戴翎",
@@ -1435,11 +1435,11 @@ var blessing = [
       "name": "张媛媛",
       "department": "艺人经纪九部"
   },
-  {
-      "phone": "No.91-1",
-      "name": "张鹿原",
-      "department": "艺人经纪九部"
-  },
+  // {
+  //     "phone": "No.91-1",
+  //     "name": "张鹿原",
+  //     "department": "艺人经纪九部"
+  // },
   {
       "phone": "No.92-1",
       "name": "张晨曦",
@@ -1600,16 +1600,16 @@ var blessing = [
       "name": "陈阳",
       "department": "行政部"
   },
-  {
-      "phone": "No.124-1",
-      "name": "李诗颖",
-      "department": "节目很2工作室"
-  },
-  {
-      "phone": "No.125-1",
-      "name": "刘铭璋",
-      "department": "节目很2工作室"
-  },
+  // {
+  //     "phone": "No.124-1",
+  //     "name": "李诗颖",
+  //     "department": "节目很2工作室"
+  // },
+  // {
+  //     "phone": "No.125-1",
+  //     "name": "刘铭璋",
+  //     "department": "节目很2工作室"
+  // },
   {
       "phone": "No.126-1",
       "name": "陆紫嫣",
@@ -1720,21 +1720,21 @@ var blessing = [
       "name": "白翔",
       "department": "中视频工作室"
   },
-  {
-      "phone": "No.148-1",
-      "name": "杨康宁",
-      "department": "节目很2工作室"
-  },
-  {
-      "phone": "No.149-1",
-      "name": "李诗颖",
-      "department": "节目很2工作室"
-  },
-  {
-      "phone": "No.150-1",
-      "name": "刘铭璋",
-      "department": "节目很2工作室"
-  },
+  // {
+  //     "phone": "No.148-1",
+  //     "name": "杨康宁",
+  //     "department": "节目很2工作室"
+  // },
+  // {
+  //     "phone": "No.149-1",
+  //     "name": "李诗颖",
+  //     "department": "节目很2工作室"
+  // },
+  // {
+  //     "phone": "No.150-1",
+  //     "name": "刘铭璋",
+  //     "department": "节目很2工作室"
+  // },
   {
       "phone": "No.151-1",
       "name": "谌特亮",
@@ -1770,21 +1770,21 @@ var blessing = [
       "name": "向芷筠",
       "department": "管培部"
   },
-  {
-      "phone": "No.158-1",
-      "name": "刘丽娜",
-      "department": "管培部"
-  },
+  // {
+  //     "phone": "No.158-1",
+  //     "name": "刘丽娜",
+  //     "department": "管培部"
+  // },
   {
       "phone": "No.159-1",
       "name": "倪可欣",
       "department": "运营部（新人）"
   },
-  {
-      "phone": "No.160-1",
-      "name": "陈雯",
-      "department": "运营部（新人）"
-  },
+  // {
+  //     "phone": "No.160-1",
+  //     "name": "陈雯",
+  //     "department": "运营部（新人）"
+  // },
   {
       "phone": "No.161-1",
       "name": "王柯彬",
